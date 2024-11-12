@@ -1,4 +1,4 @@
-test_input =  "Hello, world! Hello everyone."
+test_input =  "Special characters: !@#$%^&*() should be ignored."
 words = test_input.lower().split()
 cleaned_words = []
 

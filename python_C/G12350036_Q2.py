@@ -112,84 +112,75 @@ with open(output_file_path, "w") as output_file:
                 student_code = student_folder + "_" + q_filename
                 student_code_path = os.path.join(student_file_path, student_code)
                 print(student_code_path)
-
                 if os.path.isfile(student_code_path):
                     print(f"正在讀取檔案: {student_code_path}")
                     counter += 1
                     with open(student_code_path, 'r') as file:
                         original_code = file.read()
-                        
-                    # 根據 q_num 設定不同的測試案例
+                    
                     if q_num == 1:
-                        output_file.write(f'\n------------------------------\n')
-
+                        output_file.write(f'------------------------------\n')
+                        counter_q = 0
                         test_cases = test_cases_q1
                     elif q_num == 2:
                         output_file.write(f'------------------------------\n')
-                        
+                        counter_q = 0
                         test_cases = test_cases_q2
                     elif q_num == 3:
                         output_file.write(f'------------------------------\n')
+                        counter_q = 0
                         test_cases = test_cases_q3
                     elif q_num == 4:
                         output_file.write(f'------------------------------\n')
+                        counter_q = 0
                         test_cases = test_cases_q4
                     elif q_num == 5:
                         output_file.write(f'------------------------------\n')
+                        counter_q = 0
                         test_cases = test_cases_q5
                     elif q_num == 6:
                         output_file.write(f'------------------------------\n')
+                        counter_q = 0
                         test_cases = test_cases_q6
                     
-                    # 進行測試
-                    counter_testcase = 0
-                    for input_string, expected_output in test_cases:
-                        modified_code = re.sub(r'test_input\s*=\s*.*', f'test_input={repr(input_string)}', original_code)
-                        f = io.StringIO()
-                        counter_testcase += 1
-                        output_file.write(f'<<題號{q_num}>>\n')
-                        output_file.write(f'測資：{counter_testcase}\n')
-                        output_file.write(f'{student_code}\n')
-                        with redirect_stdout(f):
-                            local_vars = {}
-                            
-                            try:
-                                exec(modified_code, {}, local_vars)
-                            except Exception as e:
-                                output_file.write(f"An error occurred while testing input: '{input_string}\n'Error: {str(e)}\n")
-                        # 驗證結果
-                        result = f.getvalue().strip()
+                        for input_string, expected_output in test_cases:
+                            modified_code = re.sub(r'test_input\s*=\s*.*', f'test_input={repr(input_string)}', original_code)
+                            f = io.StringIO()
+                            with redirect_stdout(f):
+                                local_vars = {}
+                                try:
+                                    exec(modified_code, {}, local_vars)
+                                except Exception as e:
+                                    print(f"An error occurred while testing input: '{input_string}'. Error: {str(e)}")
 
-                        if result == str(expected_output):
-                            output_file.write(f"通過測試: {input_string}")
-                            print(f"通過測試: {input_string}")
-                        else:
-                            output_file.write(f"測試失敗，輸入: {input_string}，期望: {expected_output}，實際: {result}\n")
-                            print(f"測試失敗，輸入: {input_string}，期望: {expected_output}，實際: {result}\n")
-'''                       
-                        result = f.getvalue().strip()  # 假設輸出是整數
+                            result = int(f.getvalue().strip())  # 假設輸出是整
+
+                            try:
+                                self.assertEqual(result, expected_output, f"Test failed for input: {input_string}")
+                            except AssertionError as e:
+                                print(e)
+                                
+'''                    for input_string, expected_output in test_cases:
+                        # 替換 test_input 變量的賦值
+                        counter_q += 1
+                        modified_code = re.sub(
+                            r'test_input\s*=\s*".*?"', f'test_input="{input_string}"', original_code)
+                        local_vars = {}
+                        output_file.write(student_code)
+                        output_file.write(f'題號：{counter_q}\n')
                         try:
-                            self.assertEqual(result, expected_output, f"Test failed for input: {input_string}")
-                        except AssertionError as e:
-                            print(e)
-                           
+                            exec(modified_code, {}, local_vars)
+                            result = local_vars.get('number')  # 假設結果儲存在變量 'number' 中
+                            
+                            # 驗證輸出
+                            if result == expected_output:
+                                output_file.write(f"通過測試: {input_string}\n")
+                            else:
+                                output_file.write(f"測試失敗，輸入: {input_string}，期望: {expected_output}，實際: {result}\n")
+                        except Exception as e:
+                           output_file.write(f"程式執行錯誤: {e}\n")
+'''
                 else:
                     print("not found")
-                    nofile += 1
-                    missing_files.append(student_code)
-
-
-            print('檔案總數', counter)
-            print("not found 總數", nofile)
-
-'''
-            
-if missing_files:
-    print("\n找不到的檔案列表:")
-    for missing_file in missing_files:
-        print(missing_file)
-            
-
-
-
-
+                    nofile +=1
+                    missing_files.append(student_code) 
