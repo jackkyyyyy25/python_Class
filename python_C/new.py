@@ -142,12 +142,13 @@ def run_test_Q1(original_code, output_file):
             output_file.write(f"測試失敗，輸入: {input_string}\n期望: {expected_output}，實際: {result}\n")
             #print(f"測試失敗，輸入: {input_string}，期望: {expected_output}，實際: {result}\n")  
     output_file.write(f'****************************正確題數:{counter_correct}, 錯誤題數:{10-counter_correct}****************************\n')
-    final_file.write(f'{student_folder}:正確題數:{counter_correct}\n')
+    #final_file.write(f'{student_folder}:正確題數:{counter_correct}\n')
 
-    
+
     Q.append(counter_correct)
     print(counter_correct)
     print(Q)
+    return counter_correct
 
 def run_test_Q2(original_code, output_file):
     test_cases = test_cases_q2
@@ -183,7 +184,7 @@ def run_test_Q2(original_code, output_file):
             output_file.write(f"測試失敗，輸入: {input_string}\n期望: {expected_output}，實際: {result}\n")
             #print(f"測試失敗，輸入: {input_string}，期望: {expected_output}，實際: {result}\n")  
     output_file.write(f'****************************正確題數:{counter_correct}, 錯誤題數:{10-counter_correct}****************************\n')
-
+    return counter_correct
     
 def run_test_Q3(original_code, output_file):
     test_cases = test_cases_q3
@@ -219,6 +220,7 @@ def run_test_Q3(original_code, output_file):
             output_file.write(f"測試失敗，輸入: {input_string}\n期望: {expected_output}，實際: {result}\n")
             #print(f"測試失敗，輸入: {input_string}，期望: {expected_output}，實際: {result}\n")  
     output_file.write(f'****************************正確題數:{counter_correct}, 錯誤題數:{10-counter_correct}****************************\n')
+    return counter_correct
 
 def run_test_Q4(original_code, output_file):
     test_cases = test_cases_q4
@@ -254,6 +256,7 @@ def run_test_Q4(original_code, output_file):
             output_file.write(f"測試失敗，輸入: {input_string}\n期望: {expected_output}，實際: {result}\n")
             #print(f"測試失敗，輸入: {input_string}，期望: {expected_output}，實際: {result}\n")  
     output_file.write(f'****************************正確題數:{counter_correct}, 錯誤題數:{10-counter_correct}****************************\n')
+    return counter_correct
 
 def run_test_Q5(original_code, output_file):
     test_cases = test_cases_q5
@@ -289,6 +292,7 @@ def run_test_Q5(original_code, output_file):
             output_file.write(f"測試失敗，輸入: {input_string}\n期望: {expected_output}，實際: {result}\n")
             #print(f"測試失敗，輸入: {input_string}，期望: {expected_output}，實際: {result}\n")  
     output_file.write(f'****************************正確題數:{counter_correct}, 錯誤題數:{10-counter_correct}****************************\n')
+    return counter_correct
 
 def run_test_Q6(original_code, output_file):
     test_cases = test_cases_q6
@@ -324,70 +328,67 @@ def run_test_Q6(original_code, output_file):
             output_file.write(f"測試失敗，輸入: {input_string}\n期望: {expected_output}，實際: {result}\n")
             #print(f"測試失敗，輸入: {input_string}，期望: {expected_output}，實際: {result}\n")  
     output_file.write(f'****************************正確題數:{counter_correct}, 錯誤題數:{10-counter_correct}****************************\n')
+    return counter_correct
     Q.append(counter_correct)
 
 # 主程式部分
+# 主程式部分
 Q = []
 
-with open(output_file_path, "w") as output_file:
-    with open(final_file_path, "w") as final_file:
-        for student_folder in os.listdir(main_folder_path):
-            student_file_path = os.path.join(main_folder_path, student_folder)
+with open(output_file_path, "w") as output_file, open(final_file_path, "w") as final_file:
+    for student_folder in os.listdir(main_folder_path):
+        student_file_path = os.path.join(main_folder_path, student_folder)
 
-            if os.path.isdir(student_file_path):  
-                print(f"進入學生資料夾: {student_folder}")
+        if os.path.isdir(student_file_path):  
+            print(f"進入學生資料夾: {student_folder}")
+            final_file.write(f"\n學生學號：{student_folder}\n")  # 記錄學生學號
+            a = []
+            for q_num in range(1, 7):
+                q_filename = f"Q{q_num}.py"
+                student_code = student_folder + "_" + q_filename
+                student_code_path = os.path.join(student_file_path, student_code)
+                print(student_code_path)
 
-                for q_num in range(1, 7):
-                    q_filename = f"Q{q_num}.py"
-                    student_code = student_folder + "_" + q_filename
-                    student_code_path = os.path.join(student_file_path, student_code)
-                    print(student_code_path)
-
-                    if os.path.isfile(student_code_path):
-                        print(f"正在讀取檔案: {student_code_path}")
-                        counter += 1
-                        with open(student_code_path, 'r') as file:
-                            original_code = file.read()
+                if os.path.isfile(student_code_path):
+                    print(f"正在讀取檔案: {student_code_path}")
+                    counter += 1
+                    with open(student_code_path, 'r') as file:
+                        original_code = file.read()
                     
-                        # 執行 Q1 測試
-                        if q_num == 1:
-                            run_test_Q1(original_code, output_file)
-                            output_file.write("---------------------------\n")
+                    # 執行 Q1-Q6 測試
+                    if q_num == 1:
+                        correct_count = run_test_Q1(original_code, output_file)
+                    elif q_num == 2:
+                        correct_count = run_test_Q2(original_code, output_file)
+                    elif q_num == 3:
+                        correct_count = run_test_Q3(original_code, output_file)
+                    elif q_num == 4:
+                        correct_count = run_test_Q4(original_code, output_file)
+                    elif q_num == 5:
+                        correct_count = run_test_Q5(original_code, output_file)
+                    elif q_num == 6:
+                        correct_count = run_test_Q6(original_code, output_file)
 
-                        elif q_num == 2:
-                            run_test_Q2(original_code, output_file)
-                            output_file.write("---------------------------\n")
-                        
-                        elif q_num == 3:
-                            run_test_Q3(original_code, output_file)
-                            output_file.write("---------------------------\n")
+                    a.append(correct_count)
 
-                        elif q_num == 4:
-                            run_test_Q4(original_code, output_file)
-                            output_file.write("---------------------------\n")
+                    output_file.write("---------------------------\n")
+                    final_file.write(f"題號: Q{q_num} - 正確題數: {correct_count} / 測資數量\n")  # 記錄每一題的正確數
+                    
+                else:
+                    output_file.write(f'沒有找到 {student_code}\n')
+                    final_file.write(f'沒有找到 {student_code}\n')
+                    nofile += 1
+                    missing_files.append(student_code)
+            total_correct = sum(a)
+            print("總正確題數:", total_correct)
+            final_file.write(f"總正確題數: {total_correct}\n")
+        # if missing_files:
+        #     output_file.write("\n找不到的檔案列表:\n")
+        #     final_file.write("\n找不到的檔案列表:\n")
+        #     for missing_file in missing_files:
+        #         output_file.write(f"{missing_file}\n")
+        #         final_file.write(f"{missing_file}\n")
+        #         print(missing_file)
 
-                        elif q_num == 5:
-                            run_test_Q5(original_code, output_file)
-                            output_file.write("---------------------------\n")
-
-                        elif q_num == 6:
-                            run_test_Q6(original_code, output_file)
-                            output_file.write("---------------------------\n")
-
-
-                    else:
-                        output_file.write(f'沒有找到 {student_code}\n')
-                        nofile += 1
-                        missing_files.append(student_code)
-
-        if missing_files:
-            output_file.write("\n找不到的檔案列表:\n")
-            for missing_file in missing_files:
-                output_file.write(f"{missing_file}\n")
-                print(missing_file)
-   
-          
-        
-
-print(counter)
-print(nofile)
+print("總測試檔案數:", counter)
+print("找不到的檔案數:", nofile)

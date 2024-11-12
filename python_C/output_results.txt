@@ -1,34 +1,34 @@
 學號:s13350315_Q1.py
 <<題號: Q1測資：1>>
 測試失敗，輸入: Hello, world! Hello everyone.
-期望: 3，實際: 唯一的單字: {'world', 'hello', 'everyone'}
+期望: 3，實際: 唯一的單字: {'everyone', 'hello', 'world'}
 <<題號: Q1測資：2>>
 測試失敗，輸入: Python programming is fun! Programming is amazing.
-期望: 5，實際: 唯一的單字: {'fun', 'amazing', 'python', 'programming', 'is'}
+期望: 5，實際: 唯一的單字: {'amazing', 'fun', 'programming', 'is', 'python'}
 <<題號: Q1測資：3>>
 測試失敗，輸入: One one one
 期望: 1，實際: 唯一的單字: {'one'}
 <<題號: Q1測資：4>>
 測試失敗，輸入: This is a simple sentence.
-期望: 5，實際: 唯一的單字: {'this', 'simple', 'is', 'a', 'sentence'}
+期望: 5，實際: 唯一的單字: {'sentence', 'this', 'is', 'simple', 'a'}
 <<題號: Q1測資：5>>
 測試失敗，輸入: Special characters: !@#$%^&*() should be ignored.
-期望: 5，實際: 唯一的單字: {'characters', 'ignored', 'should', 'special', 'be'}
+期望: 5，實際: 唯一的單字: {'be', 'should', 'ignored', 'special', 'characters'}
 <<題號: Q1測資：6>>
 測試失敗，輸入: A B C a b c
-期望: 3，實際: 唯一的單字: {'b', 'c', 'a'}
+期望: 3，實際: 唯一的單字: {'c', 'b', 'a'}
 <<題號: Q1測資：7>>
 測試失敗，輸入: The quick brown fox jumps over the lazy dog.
-期望: 8，實際: 唯一的單字: {'quick', 'dog', 'fox', 'the', 'lazy', 'jumps', 'brown', 'over'}
+期望: 8，實際: 唯一的單字: {'dog', 'quick', 'fox', 'over', 'the', 'jumps', 'lazy', 'brown'}
 <<題號: Q1測資：8>>
 測試失敗，輸入: Repeated words, repeated words, repeated.
-期望: 2，實際: 唯一的單字: {'repeated', 'words'}
+期望: 2，實際: 唯一的單字: {'words', 'repeated'}
 <<題號: Q1測資：9>>
 測試失敗，輸入: 
 期望: 0，實際: 唯一的單字: set()
 <<題號: Q1測資：10>>
 測試失敗，輸入: Case insensitivity test: TEST test
-期望: 3，實際: 唯一的單字: {'insensitivity', 'case', 'test'}
+期望: 3，實際: 唯一的單字: {'test', 'case', 'insensitivity'}
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s13350315_Q2.py<<題號: Q2測資：1>>
@@ -820,34 +820,34 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 學號:s09350201_Q1.py
 <<題號: Q1測資：1>>
 測試失敗，輸入: Hello, world! Hello everyone.
-期望: 3，實際: 3 (unique words: world, hello, everyone)
+期望: 3，實際: 3 (unique words: everyone, hello, world)
 <<題號: Q1測資：2>>
 測試失敗，輸入: Python programming is fun! Programming is amazing.
-期望: 5，實際: 5 (unique words: fun, amazing, python, programming, is)
+期望: 5，實際: 5 (unique words: amazing, fun, programming, is, python)
 <<題號: Q1測資：3>>
 測試失敗，輸入: One one one
 期望: 1，實際: 1 (unique words: one)
 <<題號: Q1測資：4>>
 測試失敗，輸入: This is a simple sentence.
-期望: 5，實際: 5 (unique words: this, simple, is, a, sentence)
+期望: 5，實際: 5 (unique words: sentence, this, is, simple, a)
 <<題號: Q1測資：5>>
 測試失敗，輸入: Special characters: !@#$%^&*() should be ignored.
-期望: 5，實際: 5 (unique words: characters, ignored, should, special, be)
+期望: 5，實際: 5 (unique words: be, should, ignored, special, characters)
 <<題號: Q1測資：6>>
 測試失敗，輸入: A B C a b c
-期望: 3，實際: 3 (unique words: b, c, a)
+期望: 3，實際: 3 (unique words: c, b, a)
 <<題號: Q1測資：7>>
 測試失敗，輸入: The quick brown fox jumps over the lazy dog.
-期望: 8，實際: 8 (unique words: quick, dog, fox, the, lazy, jumps, brown, over)
+期望: 8，實際: 8 (unique words: dog, quick, fox, over, the, jumps, lazy, brown)
 <<題號: Q1測資：8>>
 測試失敗，輸入: Repeated words, repeated words, repeated.
-期望: 2，實際: 2 (unique words: repeated, words)
+期望: 2，實際: 2 (unique words: words, repeated)
 <<題號: Q1測資：9>>
 測試失敗，輸入: 
 期望: 0，實際: 0 (unique words: )
 <<題號: Q1測資：10>>
 測試失敗，輸入: Case insensitivity test: TEST test
-期望: 3，實際: 3 (unique words: insensitivity, case, test)
+期望: 3，實際: 3 (unique words: test, case, insensitivity)
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s09350201_Q2.py<<題號: Q2測資：1>>
@@ -2676,34 +2676,34 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 學號:s13350302_Q1.py
 <<題號: Q1測資：1>>
 測試失敗，輸入: Hello, world! Hello everyone.
-期望: 3，實際: 4 (unique words: Hello,, everyone., Hello, world!)
+期望: 3，實際: 4 (unique words: everyone., world!, Hello,, Hello)
 <<題號: Q1測資：2>>
 測試失敗，輸入: Python programming is fun! Programming is amazing.
-期望: 5，實際: 6 (unique words: fun!, Python, programming, is, amazing., Programming)
+期望: 5，實際: 6 (unique words: amazing., fun!, programming, Python, is, Programming)
 <<題號: Q1測資：3>>
 測試失敗，輸入: One one one
 期望: 1，實際: 2 (unique words: one, One)
 <<題號: Q1測資：4>>
 測試失敗，輸入: This is a simple sentence.
-期望: 5，實際: 5 (unique words: This, simple, is, sentence., a)
+期望: 5，實際: 5 (unique words: sentence., This, is, simple, a)
 <<題號: Q1測資：5>>
 測試失敗，輸入: Special characters: !@#$%^&*() should be ignored.
-期望: 5，實際: 6 (unique words: ignored., should, !@#$%^&*(), be, characters:, Special)
+期望: 5，實際: 6 (unique words: ignored., be, characters:, Special, should, !@#$%^&*())
 <<題號: Q1測資：6>>
 測試失敗，輸入: A B C a b c
-期望: 3，實際: 6 (unique words: B, C, b, c, A, a)
+期望: 3，實際: 6 (unique words: B, C, A, b, c, a)
 <<題號: Q1測資：7>>
 測試失敗，輸入: The quick brown fox jumps over the lazy dog.
-期望: 8，實際: 9 (unique words: quick, fox, dog., the, lazy, jumps, brown, over, The)
+期望: 8，實際: 9 (unique words: quick, dog., fox, over, The, the, jumps, lazy, brown)
 <<題號: Q1測資：8>>
 測試失敗，輸入: Repeated words, repeated words, repeated.
-期望: 2，實際: 4 (unique words: repeated, words,, repeated., Repeated)
+期望: 2，實際: 4 (unique words: Repeated, repeated., words,, repeated)
 <<題號: Q1測資：9>>
 測試失敗，輸入: 
 期望: 0，實際: 0 (unique words: )
 <<題號: Q1測資：10>>
 測試失敗，輸入: Case insensitivity test: TEST test
-期望: 3，實際: 5 (unique words: insensitivity, test:, test, TEST, Case)
+期望: 3，實際: 5 (unique words: test, TEST, Case, test:, insensitivity)
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s13350302_Q2.py<<題號: Q2測資：1>>
@@ -3189,34 +3189,34 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 學號:s12310231_Q1.py
 <<題號: Q1測資：1>>
 測試失敗，輸入: Hello, world! Hello everyone.
-期望: 3，實際: {'Hello,', 'everyone.', 'Hello', 'world!'}
+期望: 3，實際: {'everyone.', 'world!', 'Hello,', 'Hello'}
 <<題號: Q1測資：2>>
 測試失敗，輸入: Python programming is fun! Programming is amazing.
-期望: 5，實際: {'fun!', 'Python', 'programming', 'is', 'amazing.', 'Programming'}
+期望: 5，實際: {'amazing.', 'fun!', 'programming', 'Python', 'is', 'Programming'}
 <<題號: Q1測資：3>>
 測試失敗，輸入: One one one
 期望: 1，實際: {'one', 'One'}
 <<題號: Q1測資：4>>
 測試失敗，輸入: This is a simple sentence.
-期望: 5，實際: {'This', 'simple', 'is', 'sentence.', 'a'}
+期望: 5，實際: {'sentence.', 'This', 'is', 'simple', 'a'}
 <<題號: Q1測資：5>>
 測試失敗，輸入: Special characters: !@#$%^&*() should be ignored.
-期望: 5，實際: {'ignored.', 'should', '!@#$%^&*()', 'be', 'characters:', 'Special'}
+期望: 5，實際: {'ignored.', 'be', 'characters:', 'Special', 'should', '!@#$%^&*()'}
 <<題號: Q1測資：6>>
 測試失敗，輸入: A B C a b c
-期望: 3，實際: {'B', 'C', 'b', 'c', 'A', 'a'}
+期望: 3，實際: {'B', 'C', 'A', 'b', 'c', 'a'}
 <<題號: Q1測資：7>>
 測試失敗，輸入: The quick brown fox jumps over the lazy dog.
-期望: 8，實際: {'quick', 'fox', 'dog.', 'the', 'lazy', 'jumps', 'brown', 'over', 'The'}
+期望: 8，實際: {'quick', 'dog.', 'fox', 'over', 'The', 'the', 'jumps', 'lazy', 'brown'}
 <<題號: Q1測資：8>>
 測試失敗，輸入: Repeated words, repeated words, repeated.
-期望: 2，實際: {'repeated', 'words,', 'repeated.', 'Repeated'}
+期望: 2，實際: {'Repeated', 'repeated.', 'words,', 'repeated'}
 <<題號: Q1測資：9>>
 測試失敗，輸入: 
 期望: 0，實際: set()
 <<題號: Q1測資：10>>
 測試失敗，輸入: Case insensitivity test: TEST test
-期望: 3，實際: {'insensitivity', 'test:', 'test', 'TEST', 'Case'}
+期望: 3，實際: {'test', 'TEST', 'Case', 'test:', 'insensitivity'}
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s12310231_Q2.py<<題號: Q2測資：1>>
@@ -6749,34 +6749,34 @@ Error: unsupported operand type(s) for +: 'int' and 'list'
 學號:s10210049_Q1.py
 <<題號: Q1測資：1>>
 測試失敗，輸入: Hello, world! Hello everyone.
-期望: 3，實際: 3 (unique words:{'world', 'hello', 'everyone'})
+期望: 3，實際: 3 (unique words:{'everyone', 'hello', 'world'})
 <<題號: Q1測資：2>>
 測試失敗，輸入: Python programming is fun! Programming is amazing.
-期望: 5，實際: 5 (unique words:{'fun', 'amazing', 'python', 'programming', 'is'})
+期望: 5，實際: 5 (unique words:{'amazing', 'fun', 'programming', 'is', 'python'})
 <<題號: Q1測資：3>>
 測試失敗，輸入: One one one
 期望: 1，實際: 1 (unique words:{'one'})
 <<題號: Q1測資：4>>
 測試失敗，輸入: This is a simple sentence.
-期望: 5，實際: 5 (unique words:{'this', 'simple', 'is', 'a', 'sentence'})
+期望: 5，實際: 5 (unique words:{'sentence', 'this', 'is', 'simple', 'a'})
 <<題號: Q1測資：5>>
 測試失敗，輸入: Special characters: !@#$%^&*() should be ignored.
-期望: 5，實際: 5 (unique words:{'characters', 'ignored', 'should', 'special', 'be'})
+期望: 5，實際: 5 (unique words:{'be', 'should', 'ignored', 'special', 'characters'})
 <<題號: Q1測資：6>>
 測試失敗，輸入: A B C a b c
-期望: 3，實際: 3 (unique words:{'b', 'c', 'a'})
+期望: 3，實際: 3 (unique words:{'c', 'b', 'a'})
 <<題號: Q1測資：7>>
 測試失敗，輸入: The quick brown fox jumps over the lazy dog.
-期望: 8，實際: 8 (unique words:{'quick', 'dog', 'fox', 'the', 'lazy', 'jumps', 'brown', 'over'})
+期望: 8，實際: 8 (unique words:{'dog', 'quick', 'fox', 'over', 'the', 'jumps', 'lazy', 'brown'})
 <<題號: Q1測資：8>>
 測試失敗，輸入: Repeated words, repeated words, repeated.
-期望: 2，實際: 2 (unique words:{'repeated', 'words'})
+期望: 2，實際: 2 (unique words:{'words', 'repeated'})
 <<題號: Q1測資：9>>
 測試失敗，輸入: 
 期望: 0，實際: 0 (unique words:set())
 <<題號: Q1測資：10>>
 測試失敗，輸入: Case insensitivity test: TEST test
-期望: 3，實際: 3 (unique words:{'insensitivity', 'case', 'test'})
+期望: 3，實際: 3 (unique words:{'test', 'case', 'insensitivity'})
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s10210049_Q2.py<<題號: Q2測資：1>>
@@ -8205,34 +8205,34 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 學號:s13350313_Q1.py
 <<題號: Q1測資：1>>
 測試失敗，輸入: Hello, world! Hello everyone.
-期望: 3，實際: 3 (unique words: world, hello, everyone )
+期望: 3，實際: 3 (unique words: everyone, hello, world )
 <<題號: Q1測資：2>>
 測試失敗，輸入: Python programming is fun! Programming is amazing.
-期望: 5，實際: 5 (unique words: fun, amazing, python, programming, is )
+期望: 5，實際: 5 (unique words: amazing, fun, programming, is, python )
 <<題號: Q1測資：3>>
 測試失敗，輸入: One one one
 期望: 1，實際: 1 (unique words: one )
 <<題號: Q1測資：4>>
 測試失敗，輸入: This is a simple sentence.
-期望: 5，實際: 5 (unique words: this, simple, is, a, sentence )
+期望: 5，實際: 5 (unique words: sentence, this, is, simple, a )
 <<題號: Q1測資：5>>
 測試失敗，輸入: Special characters: !@#$%^&*() should be ignored.
-期望: 5，實際: 5 (unique words: characters, ignored, should, special, be )
+期望: 5，實際: 5 (unique words: be, should, ignored, special, characters )
 <<題號: Q1測資：6>>
 測試失敗，輸入: A B C a b c
-期望: 3，實際: 3 (unique words: b, c, a )
+期望: 3，實際: 3 (unique words: c, b, a )
 <<題號: Q1測資：7>>
 測試失敗，輸入: The quick brown fox jumps over the lazy dog.
-期望: 8，實際: 8 (unique words: quick, dog, fox, the, lazy, jumps, brown, over )
+期望: 8，實際: 8 (unique words: dog, quick, fox, over, the, jumps, lazy, brown )
 <<題號: Q1測資：8>>
 測試失敗，輸入: Repeated words, repeated words, repeated.
-期望: 2，實際: 2 (unique words: repeated, words )
+期望: 2，實際: 2 (unique words: words, repeated )
 <<題號: Q1測資：9>>
 測試失敗，輸入: 
 期望: 0，實際: 0 (unique words:  )
 <<題號: Q1測資：10>>
 測試失敗，輸入: Case insensitivity test: TEST test
-期望: 3，實際: 3 (unique words: insensitivity, case, test )
+期望: 3，實際: 3 (unique words: test, case, insensitivity )
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s13350313_Q2.py<<題號: Q2測資：1>>
@@ -9343,9 +9343,3 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 Error: unsupported operand type(s) for +=: 'int' and 'list'
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
-
-找不到的檔案列表:
-s13350305_Q1.py
-s13350305_Q5.py
-s13350305_Q6.py
-s13350301_Q4.py
