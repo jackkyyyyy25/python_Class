@@ -14,7 +14,7 @@ test_cases_q1 = [
     ("The quick brown fox jumps over the lazy dog.", 8),
     ("Repeated words, repeated words, repeated.", 2),
     ("", 0),
-    ("Case insensitivity test: TEST test", 1)
+    ("Case insensitivity test: TEST test", 3)
 ]
 
 test_cases_q2 = [
@@ -26,8 +26,8 @@ test_cases_q2 = [
     ([], 0),
     ([0], 1),
     ([1, 2, 3, 4, 5, 6, 7], 7),
-    ([10, 12, 14, 15, 13, 16], 6),
-    ([2, 5, 6, 7, 9, 8, 1], 6)
+    ([10, 12, 14, 15, 13, 16], 5),
+    ([2, 5, 6, 7, 9, 8, 1], 5)
 ]
 
 test_cases_q3 = [

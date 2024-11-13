@@ -1,4 +1,4 @@
-test_input=[3, 0, 1]
+test_input=[0, 1]
 num=sorted(test_input)
 
 for i in range(len(num)):

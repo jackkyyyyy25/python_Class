@@ -13,6 +13,8 @@ def smallest_subarray_with_sum(nums, target):
     smallest_subarray = []  #用來儲存最小子數組
 
     for right in range(n):
+        print(type(nums[right]))
+        print(type(current_sum))
         current_sum += nums[right] 
         
         #當前總和達到或超過目標時，開始縮小範圍

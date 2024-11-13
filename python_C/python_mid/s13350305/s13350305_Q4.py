@@ -1,4 +1,4 @@
-test_input="racecar"
+test_input=""
 n=len(test_input)-1
 if test_input[0]==test_input[n]:
     print("Palindrome")

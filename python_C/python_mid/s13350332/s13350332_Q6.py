@@ -13,8 +13,8 @@ def min_subarray_len(target, nums):
 
     return min_length if min_length != float('inf') else 0  
 
-test_input = [2, 3, 1, 2, 4, 3]
-target = 7
+test_input = [1, 2, 3, 4, 5]
+target = 11
 
 result = min_subarray_len(target, test_input)
 print(result)  

@@ -1,25 +1,25 @@
 學號:s13350315_Q1.py
 <<題號: Q1測資：1>>
 測試失敗，輸入: Hello, world! Hello everyone.
-期望: 3，實際: 唯一的單字: {'everyone', 'hello', 'world'}
+期望: 3，實際: 唯一的單字: {'world', 'hello', 'everyone'}
 <<題號: Q1測資：2>>
 測試失敗，輸入: Python programming is fun! Programming is amazing.
-期望: 5，實際: 唯一的單字: {'amazing', 'fun', 'programming', 'is', 'python'}
+期望: 5，實際: 唯一的單字: {'fun', 'programming', 'python', 'is', 'amazing'}
 <<題號: Q1測資：3>>
 測試失敗，輸入: One one one
 期望: 1，實際: 唯一的單字: {'one'}
 <<題號: Q1測資：4>>
 測試失敗，輸入: This is a simple sentence.
-期望: 5，實際: 唯一的單字: {'sentence', 'this', 'is', 'simple', 'a'}
+期望: 5，實際: 唯一的單字: {'simple', 'a', 'this', 'sentence', 'is'}
 <<題號: Q1測資：5>>
 測試失敗，輸入: Special characters: !@#$%^&*() should be ignored.
-期望: 5，實際: 唯一的單字: {'be', 'should', 'ignored', 'special', 'characters'}
+期望: 5，實際: 唯一的單字: {'characters', 'be', 'should', 'ignored', 'special'}
 <<題號: Q1測資：6>>
 測試失敗，輸入: A B C a b c
-期望: 3，實際: 唯一的單字: {'c', 'b', 'a'}
+期望: 3，實際: 唯一的單字: {'b', 'c', 'a'}
 <<題號: Q1測資：7>>
 測試失敗，輸入: The quick brown fox jumps over the lazy dog.
-期望: 8，實際: 唯一的單字: {'dog', 'quick', 'fox', 'over', 'the', 'jumps', 'lazy', 'brown'}
+期望: 8，實際: 唯一的單字: {'lazy', 'brown', 'fox', 'the', 'jumps', 'quick', 'dog', 'over'}
 <<題號: Q1測資：8>>
 測試失敗，輸入: Repeated words, repeated words, repeated.
 期望: 2，實際: 唯一的單字: {'words', 'repeated'}
@@ -28,7 +28,7 @@
 期望: 0，實際: 唯一的單字: set()
 <<題號: Q1測資：10>>
 測試失敗，輸入: Case insensitivity test: TEST test
-期望: 3，實際: 唯一的單字: {'test', 'case', 'insensitivity'}
+期望: 3，實際: 唯一的單字: {'case', 'test', 'insensitivity'}
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s13350315_Q2.py<<題號: Q2測資：1>>
@@ -57,10 +57,10 @@
 期望: 7，實際: The longest sequence is [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
 測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: The longest sequence is [12, 13, 14, 15, 16]
+期望: 5，實際: The longest sequence is [12, 13, 14, 15, 16]
 <<題號: Q2測資：10>>
 測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: The longest sequence is [5, 6, 7, 8, 9]
+期望: 5，實際: The longest sequence is [5, 6, 7, 8, 9]
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s13350315_Q3.py
@@ -136,36 +136,36 @@
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350315_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
+<<題號: Q6 測資：1>>
+測試失敗，輸入: ([2, 3, 1, 2, 4, 3], 7)
+期望: 2，實際: 最小子數組的長度: 2
+<<題號: Q6 測資：2>>
+測試失敗，輸入: ([1, 2, 3, 4, 5], 11)
+期望: 3，實際: 最小子數組的長度: 3
+<<題號: Q6 測資：3>>
+測試失敗，輸入: ([1, 4, 4], 8)
+期望: 2，實際: 最小子數組的長度: 2
+<<題號: Q6 測資：4>>
+測試失敗，輸入: ([1, 2, 3, 4, 5], 15)
+期望: 5，實際: 最小子數組的長度: 5
+<<題號: Q6 測資：5>>
+測試失敗，輸入: ([2, 3, 1, 2, 4, 3], 100)
+期望: 0，實際: 最小子數組的長度: 0
+<<題號: Q6 測資：6>>
+測試失敗，輸入: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+期望: 2，實際: 最小子數組的長度: 2
+<<題號: Q6 測資：7>>
+測試失敗，輸入: ([1, 1, 1, 1, 1, 1], 3)
+期望: 3，實際: 最小子數組的長度: 3
+<<題號: Q6 測資：8>>
+測試失敗，輸入: ([4, 3, 1, 2, 6], 6)
+期望: 1，實際: 最小子數組的長度: 1
+<<題號: Q6 測資：9>>
+測試失敗，輸入: ([1, 2, 3], 6)
+期望: 3，實際: 最小子數組的長度: 3
+<<題號: Q6 測資：10>>
+測試失敗，輸入: ([2, 3, 5, 7, 10, 15], 20)
+期望: 2，實際: 最小子數組的長度: 2
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 沒有找到 s13350305_Q1.py
@@ -222,7 +222,7 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 1
 <<題號: Q2測資：9>>
 測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 1
+期望: 5，實際: 1
 5
 4
 3
@@ -230,7 +230,7 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 1
 <<題號: Q2測資：10>>
 測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 2
+期望: 5，實際: 2
 1
 5
 4
@@ -399,35 +399,45 @@ Error: EOL while scanning string literal (<string>, line 4)
 ---------------------------
 學號:s13350327_Q4.py
 <<題號: Q4測資：1>>
-執行錯誤，輸入: 'racecar'
-Error: EOL while scanning string literal (<string>, line 3)
+測試失敗，輸入: racecar
+期望: Palindrome，實際: test_input = racecar
+Palindrome
 <<題號: Q4測資：2>>
-執行錯誤，輸入: 'hello'
-Error: EOL while scanning string literal (<string>, line 3)
+測試失敗，輸入: hello
+期望: Not Palindrome，實際: test_input = racecar
+Not Palindrome
 <<題號: Q4測資：3>>
-執行錯誤，輸入: 'A man a plan a canal Panama'
-Error: EOL while scanning string literal (<string>, line 3)
+測試失敗，輸入: A man a plan a canal Panama
+期望: Palindrome，實際: test_input = racecar
+Not Palindrome
 <<題號: Q4測資：4>>
-執行錯誤，輸入: 'No lemon, no melon'
-Error: EOL while scanning string literal (<string>, line 3)
+測試失敗，輸入: No lemon, no melon
+期望: Palindrome，實際: test_input = racecar
+Not Palindrome
 <<題號: Q4測資：5>>
-執行錯誤，輸入: ''
-Error: EOL while scanning string literal (<string>, line 3)
+測試失敗，輸入: 
+期望: Palindrome，實際: test_input = racecar
+Palindrome
 <<題號: Q4測資：6>>
-執行錯誤，輸入: 'a'
-Error: EOL while scanning string literal (<string>, line 3)
+測試失敗，輸入: a
+期望: Palindrome，實際: test_input = racecar
+Palindrome
 <<題號: Q4測資：7>>
-執行錯誤，輸入: 'ab'
-Error: EOL while scanning string literal (<string>, line 3)
+測試失敗，輸入: ab
+期望: Not Palindrome，實際: test_input = racecar
+Not Palindrome
 <<題號: Q4測資：8>>
-執行錯誤，輸入: 'madam'
-Error: EOL while scanning string literal (<string>, line 3)
+測試失敗，輸入: madam
+期望: Palindrome，實際: test_input = racecar
+Palindrome
 <<題號: Q4測資：9>>
-執行錯誤，輸入: 'was it a car or a cat I saw'
-Error: EOL while scanning string literal (<string>, line 3)
+測試失敗，輸入: was it a car or a cat I saw
+期望: Palindrome，實際: test_input = racecar
+Not Palindrome
 <<題號: Q4測資：10>>
-執行錯誤，輸入: 'palindrome'
-Error: EOL while scanning string literal (<string>, line 3)
+測試失敗，輸入: palindrome
+期望: Not Palindrome，實際: test_input = racecar
+Not Palindrome
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s13350327_Q5.py
@@ -464,36 +474,36 @@ Error: EOL while scanning string literal (<string>, line 6)
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s13350327_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
+<<題號: Q6 測資：1>>
+測試失敗，輸入: ([2, 3, 1, 2, 4, 3], 7)
+期望: 2，實際: The smallest subarray with the target sum is: [4, 3]
+<<題號: Q6 測資：2>>
+測試失敗，輸入: ([1, 2, 3, 4, 5], 11)
+期望: 3，實際: The smallest subarray with the target sum is: [3, 4, 5]
+<<題號: Q6 測資：3>>
+測試失敗，輸入: ([1, 4, 4], 8)
+期望: 2，實際: The smallest subarray with the target sum is: [4, 4]
+<<題號: Q6 測資：4>>
+測試失敗，輸入: ([1, 2, 3, 4, 5], 15)
+期望: 5，實際: The smallest subarray with the target sum is: [1, 2, 3, 4, 5]
+<<題號: Q6 測資：5>>
+測試失敗，輸入: ([2, 3, 1, 2, 4, 3], 100)
+期望: 0，實際: No subarray found with the target sum.
+<<題號: Q6 測資：6>>
+測試失敗，輸入: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+期望: 2，實際: The smallest subarray with the target sum is: [5, 10]
+<<題號: Q6 測資：7>>
+測試失敗，輸入: ([1, 1, 1, 1, 1, 1], 3)
+期望: 3，實際: The smallest subarray with the target sum is: [1, 1, 1]
+<<題號: Q6 測資：8>>
+測試失敗，輸入: ([4, 3, 1, 2, 6], 6)
+期望: 1，實際: The smallest subarray with the target sum is: [6]
+<<題號: Q6 測資：9>>
+測試失敗，輸入: ([1, 2, 3], 6)
+期望: 3，實際: The smallest subarray with the target sum is: [1, 2, 3]
+<<題號: Q6 測資：10>>
+測試失敗，輸入: ([2, 3, 5, 7, 10, 15], 20)
+期望: 2，實際: The smallest subarray with the target sum is: [10, 15]
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s12350352_Q1.py
@@ -555,10 +565,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 期望: 7，實際: 7 (The longest sequence is [1, 2, 3, 4, 5, 6, 7])
 <<題號: Q2測資：9>>
 測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5 (The longest sequence is [12, 13, 14, 15, 16])
+期望: 5，實際: 5 (The longest sequence is [12, 13, 14, 15, 16])
 <<題號: Q2測資：10>>
 測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5 (The longest sequence is [5, 6, 7, 8, 9])
+期望: 5，實際: 5 (The longest sequence is [5, 6, 7, 8, 9])
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s12350352_Q3.py
@@ -634,37 +644,36 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s12350352_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+測試失敗，輸入: ([2, 3, 1, 2, 4, 3], 7)
+期望: 2，實際: 2 (smallest subarray [4, 3])
+<<題號: Q6 測資：2>>
+測試失敗，輸入: ([1, 2, 3, 4, 5], 11)
+期望: 3，實際: 3 (smallest subarray [3, 4, 5])
+<<題號: Q6 測資：3>>
+測試失敗，輸入: ([1, 4, 4], 8)
+期望: 2，實際: 2 (smallest subarray [4, 4])
+<<題號: Q6 測資：4>>
+測試失敗，輸入: ([1, 2, 3, 4, 5], 15)
+期望: 5，實際: 5 (smallest subarray [1, 2, 3, 4, 5])
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+測試失敗，輸入: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+期望: 2，實際: 2 (smallest subarray [5, 10])
+<<題號: Q6 測資：7>>
+測試失敗，輸入: ([1, 1, 1, 1, 1, 1], 3)
+期望: 3，實際: 3 (smallest subarray [1, 1, 1])
+<<題號: Q6 測資：8>>
+測試失敗，輸入: ([4, 3, 1, 2, 6], 6)
+期望: 1，實際: 1 (smallest subarray [6])
+<<題號: Q6 測資：9>>
+測試失敗，輸入: ([1, 2, 3], 6)
+期望: 3，實際: 3 (smallest subarray [1, 2, 3])
+<<題號: Q6 測資：10>>
+測試失敗，輸入: ([2, 3, 5, 7, 10, 15], 20)
+期望: 2，實際: 2 (smallest subarray [10, 15])
+****************************正確題數:1, 錯誤題數:9****************************
 ---------------------------
 學號:s11232004_Q1.py
 <<題號: Q1測資：1>>
@@ -708,12 +717,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s11232004_Q3.py
 <<題號: Q3測資：1>>
@@ -785,60 +792,50 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s11232004_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s09350201_Q1.py
 <<題號: Q1測資：1>>
 測試失敗，輸入: Hello, world! Hello everyone.
-期望: 3，實際: 3 (unique words: everyone, hello, world)
+期望: 3，實際: 3 (unique words: world, hello, everyone)
 <<題號: Q1測資：2>>
 測試失敗，輸入: Python programming is fun! Programming is amazing.
-期望: 5，實際: 5 (unique words: amazing, fun, programming, is, python)
+期望: 5，實際: 5 (unique words: fun, programming, python, is, amazing)
 <<題號: Q1測資：3>>
 測試失敗，輸入: One one one
 期望: 1，實際: 1 (unique words: one)
 <<題號: Q1測資：4>>
 測試失敗，輸入: This is a simple sentence.
-期望: 5，實際: 5 (unique words: sentence, this, is, simple, a)
+期望: 5，實際: 5 (unique words: simple, a, this, sentence, is)
 <<題號: Q1測資：5>>
 測試失敗，輸入: Special characters: !@#$%^&*() should be ignored.
-期望: 5，實際: 5 (unique words: be, should, ignored, special, characters)
+期望: 5，實際: 5 (unique words: characters, be, should, ignored, special)
 <<題號: Q1測資：6>>
 測試失敗，輸入: A B C a b c
-期望: 3，實際: 3 (unique words: c, b, a)
+期望: 3，實際: 3 (unique words: b, c, a)
 <<題號: Q1測資：7>>
 測試失敗，輸入: The quick brown fox jumps over the lazy dog.
-期望: 8，實際: 8 (unique words: dog, quick, fox, over, the, jumps, lazy, brown)
+期望: 8，實際: 8 (unique words: lazy, brown, fox, the, jumps, quick, dog, over)
 <<題號: Q1測資：8>>
 測試失敗，輸入: Repeated words, repeated words, repeated.
 期望: 2，實際: 2 (unique words: words, repeated)
@@ -847,7 +844,7 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 期望: 0，實際: 0 (unique words: )
 <<題號: Q1測資：10>>
 測試失敗，輸入: Case insensitivity test: TEST test
-期望: 3，實際: 3 (unique words: test, case, insensitivity)
+期望: 3，實際: 3 (unique words: case, test, insensitivity)
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s09350201_Q2.py<<題號: Q2測資：1>>
@@ -876,10 +873,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 期望: 7，實際: 7 (The longest sequence is [1, 2, 3, 4, 5, 6, 7])
 <<題號: Q2測資：9>>
 測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5 (The longest sequence is [12, 13, 14, 15, 16])
+期望: 5，實際: 5 (The longest sequence is [12, 13, 14, 15, 16])
 <<題號: Q2測資：10>>
 測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5 (The longest sequence is [5, 6, 7, 8, 9])
+期望: 5，實際: 5 (The longest sequence is [5, 6, 7, 8, 9])
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s09350201_Q3.py
@@ -952,36 +949,145 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s09350201_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
+<<題號: Q6 測資：1>>
+測試失敗，輸入: ([2, 3, 1, 2, 4, 3], 7)
+期望: 2，實際: <class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+2 (smallest subarray [4, 3])
+<<題號: Q6 測資：2>>
+測試失敗，輸入: ([1, 2, 3, 4, 5], 11)
+期望: 3，實際: <class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+3 (smallest subarray [3, 4, 5])
+<<題號: Q6 測資：3>>
+測試失敗，輸入: ([1, 4, 4], 8)
+期望: 2，實際: <class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+2 (smallest subarray [4, 4])
+<<題號: Q6 測資：4>>
+測試失敗，輸入: ([1, 2, 3, 4, 5], 15)
+期望: 5，實際: <class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+5 (smallest subarray [1, 2, 3, 4, 5])
+<<題號: Q6 測資：5>>
+測試失敗，輸入: ([2, 3, 1, 2, 4, 3], 100)
+期望: 0，實際: <class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<<題號: Q6 測資：6>>
+測試失敗，輸入: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+期望: 2，實際: <class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+2 (smallest subarray [5, 10])
+<<題號: Q6 測資：7>>
+測試失敗，輸入: ([1, 1, 1, 1, 1, 1], 3)
+期望: 3，實際: <class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+3 (smallest subarray [1, 1, 1])
+<<題號: Q6 測資：8>>
+測試失敗，輸入: ([4, 3, 1, 2, 6], 6)
+期望: 1，實際: <class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+1 (smallest subarray [6])
+<<題號: Q6 測資：9>>
+測試失敗，輸入: ([1, 2, 3], 6)
+期望: 3，實際: <class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+3 (smallest subarray [1, 2, 3])
+<<題號: Q6 測資：10>>
+測試失敗，輸入: ([2, 3, 5, 7, 10, 15], 20)
+期望: 2，實際: <class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+2 (smallest subarray [10, 15])
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s11120154_Q1.py
@@ -1149,34 +1255,34 @@ Error: invalid syntax (<string>, line 1)
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s11120154_Q6.py
-<<題號: Q6測資：1>>
+<<題號: Q6 測資：1>>
 執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
 Error: invalid syntax (<string>, line 1)
-<<題號: Q6測資：2>>
+<<題號: Q6 測資：2>>
 執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
 Error: invalid syntax (<string>, line 1)
-<<題號: Q6測資：3>>
+<<題號: Q6 測資：3>>
 執行錯誤，輸入: '([1, 4, 4], 8)'
 Error: invalid syntax (<string>, line 1)
-<<題號: Q6測資：4>>
+<<題號: Q6 測資：4>>
 執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
 Error: invalid syntax (<string>, line 1)
-<<題號: Q6測資：5>>
+<<題號: Q6 測資：5>>
 執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
 Error: invalid syntax (<string>, line 1)
-<<題號: Q6測資：6>>
+<<題號: Q6 測資：6>>
 執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
 Error: invalid syntax (<string>, line 1)
-<<題號: Q6測資：7>>
+<<題號: Q6 測資：7>>
 執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
 Error: invalid syntax (<string>, line 1)
-<<題號: Q6測資：8>>
+<<題號: Q6 測資：8>>
 執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
 Error: invalid syntax (<string>, line 1)
-<<題號: Q6測資：9>>
+<<題號: Q6 測資：9>>
 執行錯誤，輸入: '([1, 2, 3], 6)'
 Error: invalid syntax (<string>, line 1)
-<<題號: Q6測資：10>>
+<<題號: Q6 測資：10>>
 執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
 Error: invalid syntax (<string>, line 1)
 ****************************正確題數:0, 錯誤題數:10****************************
@@ -1229,12 +1335,10 @@ Error: invalid syntax (<string>, line 1)
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350307_Q3.py
 <<題號: Q3測資：1>>
@@ -1261,36 +1365,29 @@ Error: invalid syntax (<string>, line 1)
 ---------------------------
 學號:s13350307_Q4.py
 <<題號: Q4測資：1>>
-執行錯誤，輸入: 'racecar'
-Error: invalid syntax (<string>, line 6)
+通過測試: racecar
 <<題號: Q4測資：2>>
-執行錯誤，輸入: 'hello'
-Error: invalid syntax (<string>, line 6)
+測試失敗，輸入: hello
+期望: Not Palindrome，實際: Palindrome
 <<題號: Q4測資：3>>
-執行錯誤，輸入: 'A man a plan a canal Panama'
-Error: invalid syntax (<string>, line 6)
+通過測試: A man a plan a canal Panama
 <<題號: Q4測資：4>>
-執行錯誤，輸入: 'No lemon, no melon'
-Error: invalid syntax (<string>, line 6)
+通過測試: No lemon, no melon
 <<題號: Q4測資：5>>
-執行錯誤，輸入: ''
-Error: invalid syntax (<string>, line 6)
+通過測試: 
 <<題號: Q4測資：6>>
-執行錯誤，輸入: 'a'
-Error: invalid syntax (<string>, line 6)
+通過測試: a
 <<題號: Q4測資：7>>
-執行錯誤，輸入: 'ab'
-Error: invalid syntax (<string>, line 6)
+測試失敗，輸入: ab
+期望: Not Palindrome，實際: Palindrome
 <<題號: Q4測資：8>>
-執行錯誤，輸入: 'madam'
-Error: invalid syntax (<string>, line 6)
+通過測試: madam
 <<題號: Q4測資：9>>
-執行錯誤，輸入: 'was it a car or a cat I saw'
-Error: invalid syntax (<string>, line 6)
+通過測試: was it a car or a cat I saw
 <<題號: Q4測資：10>>
-執行錯誤，輸入: 'palindrome'
-Error: invalid syntax (<string>, line 6)
-****************************正確題數:0, 錯誤題數:10****************************
+測試失敗，輸入: palindrome
+期望: Not Palindrome，實際: Palindrome
+****************************正確題數:7, 錯誤題數:3****************************
 ---------------------------
 學號:s13350307_Q5.py
 <<題號: Q5測資：1>>
@@ -1320,37 +1417,35 @@ Error: invalid syntax (<string>, line 6)
 ****************************正確題數:6, 錯誤題數:4****************************
 ---------------------------
 學號:s13350307_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+測試失敗，輸入: ([1, 2, 3, 4, 5], 11)
+期望: 3，實際: 2
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+測試失敗，輸入: ([1, 2, 3, 4, 5], 15)
+期望: 5，實際: 2
+<<題號: Q6 測資：5>>
+測試失敗，輸入: ([2, 3, 1, 2, 4, 3], 100)
+期望: 0，實際: 2
+<<題號: Q6 測資：6>>
+測試失敗，輸入: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+期望: 2，實際: 1
+<<題號: Q6 測資：7>>
+測試失敗，輸入: ([1, 1, 1, 1, 1, 1], 3)
+期望: 3，實際: 0
+<<題號: Q6 測資：8>>
+測試失敗，輸入: ([4, 3, 1, 2, 6], 6)
+期望: 1，實際: 2
+<<題號: Q6 測資：9>>
+測試失敗，輸入: ([1, 2, 3], 6)
+期望: 3，實際: 0
+<<題號: Q6 測資：10>>
+測試失敗，輸入: ([2, 3, 5, 7, 10, 15], 20)
+期望: 2，實際: 1
+****************************正確題數:2, 錯誤題數:8****************************
 ---------------------------
 學號:s10522033_Q1.py
 <<題號: Q1測資：1>>
@@ -1392,12 +1487,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s10522033_Q3.py
 <<題號: Q3測資：1>>
@@ -1469,37 +1562,27 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s10522033_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s12350342_Q1.py
 <<題號: Q1測資：1>>
@@ -1551,12 +1634,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s12350342_Q3.py
 <<題號: Q3測資：1>>
@@ -1593,36 +1674,32 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ---------------------------
 學號:s12350342_Q4.py
 <<題號: Q4測資：1>>
-執行錯誤，輸入: 'racecar'
-Error: invalid syntax (<string>, line 2)
+通過測試: racecar
 <<題號: Q4測資：2>>
-執行錯誤，輸入: 'hello'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: hello
+期望: Not Palindrome，實際: Nor Palindrome
 <<題號: Q4測資：3>>
-執行錯誤，輸入: 'A man a plan a canal Panama'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: A man a plan a canal Panama
+期望: Palindrome，實際: Nor Palindrome
 <<題號: Q4測資：4>>
-執行錯誤，輸入: 'No lemon, no melon'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: No lemon, no melon
+期望: Palindrome，實際: Nor Palindrome
 <<題號: Q4測資：5>>
-執行錯誤，輸入: ''
-Error: invalid syntax (<string>, line 2)
+通過測試: 
 <<題號: Q4測資：6>>
-執行錯誤，輸入: 'a'
-Error: invalid syntax (<string>, line 2)
+通過測試: a
 <<題號: Q4測資：7>>
-執行錯誤，輸入: 'ab'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: ab
+期望: Not Palindrome，實際: Nor Palindrome
 <<題號: Q4測資：8>>
-執行錯誤，輸入: 'madam'
-Error: invalid syntax (<string>, line 2)
+通過測試: madam
 <<題號: Q4測資：9>>
-執行錯誤，輸入: 'was it a car or a cat I saw'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: was it a car or a cat I saw
+期望: Palindrome，實際: Nor Palindrome
 <<題號: Q4測資：10>>
-執行錯誤，輸入: 'palindrome'
-Error: invalid syntax (<string>, line 2)
-****************************正確題數:0, 錯誤題數:10****************************
+測試失敗，輸入: palindrome
+期望: Not Palindrome，實際: Nor Palindrome
+****************************正確題數:4, 錯誤題數:6****************************
 ---------------------------
 學號:s12350342_Q5.py
 <<題號: Q5測資：1>>
@@ -1658,36 +1735,36 @@ Error: invalid syntax (<string>, line 2)
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s12350342_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
+<<題號: Q6 測資：1>>
+測試失敗，輸入: ([2, 3, 1, 2, 4, 3], 7)
+期望: 2，實際: The length of the smallest subarray with sum at least 7 is: 2
+<<題號: Q6 測資：2>>
+測試失敗，輸入: ([1, 2, 3, 4, 5], 11)
+期望: 3，實際: The length of the smallest subarray with sum at least 11 is: 3
+<<題號: Q6 測資：3>>
+測試失敗，輸入: ([1, 4, 4], 8)
+期望: 2，實際: The length of the smallest subarray with sum at least 8 is: 2
+<<題號: Q6 測資：4>>
+測試失敗，輸入: ([1, 2, 3, 4, 5], 15)
+期望: 5，實際: The length of the smallest subarray with sum at least 15 is: 5
+<<題號: Q6 測資：5>>
+測試失敗，輸入: ([2, 3, 1, 2, 4, 3], 100)
+期望: 0，實際: The length of the smallest subarray with sum at least 100 is: 0
+<<題號: Q6 測資：6>>
+測試失敗，輸入: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+期望: 2，實際: The length of the smallest subarray with sum at least 15 is: 2
+<<題號: Q6 測資：7>>
+測試失敗，輸入: ([1, 1, 1, 1, 1, 1], 3)
+期望: 3，實際: The length of the smallest subarray with sum at least 3 is: 3
+<<題號: Q6 測資：8>>
+測試失敗，輸入: ([4, 3, 1, 2, 6], 6)
+期望: 1，實際: The length of the smallest subarray with sum at least 6 is: 1
+<<題號: Q6 測資：9>>
+測試失敗，輸入: ([1, 2, 3], 6)
+期望: 3，實際: The length of the smallest subarray with sum at least 6 is: 3
+<<題號: Q6 測資：10>>
+測試失敗，輸入: ([2, 3, 5, 7, 10, 15], 20)
+期望: 2，實際: The length of the smallest subarray with sum at least 20 is: 2
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s08222049_Q1.py
@@ -1739,11 +1816,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 期望: 7，實際: 6
 <<題號: Q2測資：9>>
 測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 4
+期望: 5，實際: 4
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:2, 錯誤題數:8****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:3, 錯誤題數:7****************************
 ---------------------------
 學號:s08222049_Q3.py
 <<題號: Q3測資：1>>
@@ -1815,33 +1891,37 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s08222049_Q6.py
-<<題號: Q6測資：1>>
-通過測試: ([2, 3, 1, 2, 4, 3], 7)
-<<題號: Q6測資：2>>
-測試失敗，輸入: ([1, 2, 3, 4, 5], 11)
-期望: 3，實際: 2
-<<題號: Q6測資：3>>
-通過測試: ([1, 4, 4], 8)
-<<題號: Q6測資：4>>
-測試失敗，輸入: ([1, 2, 3, 4, 5], 15)
-期望: 5，實際: 2
-<<題號: Q6測資：5>>
-測試失敗，輸入: ([2, 3, 1, 2, 4, 3], 100)
-期望: 0，實際: 2
-<<題號: Q6測資：6>>
-通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
-<<題號: Q6測資：7>>
-測試失敗，輸入: ([1, 1, 1, 1, 1, 1], 3)
-期望: 3，實際: 2
-<<題號: Q6測資：8>>
-測試失敗，輸入: ([4, 3, 1, 2, 6], 6)
-期望: 1，實際: 2
-<<題號: Q6測資：9>>
-測試失敗，輸入: ([1, 2, 3], 6)
-期望: 3，實際: 2
-<<題號: Q6測資：10>>
-通過測試: ([2, 3, 5, 7, 10, 15], 20)
-****************************正確題數:4, 錯誤題數:6****************************
+<<題號: Q6 測資：1>>
+執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
+Error: cannot unpack non-iterable int object
+<<題號: Q6 測資：2>>
+執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
+Error: cannot unpack non-iterable int object
+<<題號: Q6 測資：3>>
+執行錯誤，輸入: '([1, 4, 4], 8)'
+Error: cannot unpack non-iterable int object
+<<題號: Q6 測資：4>>
+執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
+Error: cannot unpack non-iterable int object
+<<題號: Q6 測資：5>>
+執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
+Error: cannot unpack non-iterable int object
+<<題號: Q6 測資：6>>
+執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
+Error: cannot unpack non-iterable int object
+<<題號: Q6 測資：7>>
+執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
+Error: cannot unpack non-iterable int object
+<<題號: Q6 測資：8>>
+執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
+Error: cannot unpack non-iterable int object
+<<題號: Q6 測資：9>>
+執行錯誤，輸入: '([1, 2, 3], 6)'
+Error: cannot unpack non-iterable int object
+<<題號: Q6 測資：10>>
+執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
+Error: cannot unpack non-iterable int object
+****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s11110131_Q1.py
 <<題號: Q1測資：1>>
@@ -1883,12 +1963,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s11110131_Q3.py
 <<題號: Q3測資：1>>
@@ -1960,37 +2038,27 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s11110131_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350306_Q1.py
 <<題號: Q1測資：1>>
@@ -2032,12 +2100,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350306_Q3.py
 <<題號: Q3測資：1>>
@@ -2112,37 +2178,27 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350306_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350312_Q1.py
 <<題號: Q1測資：1>>
@@ -2193,12 +2249,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:6, 錯誤題數:4****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:8, 錯誤題數:2****************************
 ---------------------------
 學號:s13350312_Q3.py
 <<題號: Q3測資：1>>
@@ -2296,37 +2350,36 @@ Error: list index out of range
 ****************************正確題數:4, 錯誤題數:6****************************
 ---------------------------
 學號:s13350312_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+測試失敗，輸入: ([1, 2, 3, 4, 5], 11)
+期望: 3，實際: 4
+<<題號: Q6 測資：3>>
 執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
+Error: min() arg is an empty sequence
+<<題號: Q6 測資：4>>
+測試失敗，輸入: ([1, 2, 3, 4, 5], 15)
+期望: 5，實際: 4
+<<題號: Q6 測資：5>>
+測試失敗，輸入: ([2, 3, 1, 2, 4, 3], 100)
+期望: 0，實際: 2
+<<題號: Q6 測資：6>>
+測試失敗，輸入: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+期望: 2，實際: 9
+<<題號: Q6 測資：7>>
 執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
+Error: min() arg is an empty sequence
+<<題號: Q6 測資：8>>
 執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
+Error: min() arg is an empty sequence
+<<題號: Q6 測資：9>>
 執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+Error: min() arg is an empty sequence
+<<題號: Q6 測資：10>>
+測試失敗，輸入: ([2, 3, 5, 7, 10, 15], 20)
+期望: 2，實際: 6
+****************************正確題數:1, 錯誤題數:9****************************
 ---------------------------
 學號:s11420218_Q1.py
 <<題號: Q1測資：1>>
@@ -2381,10 +2434,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 期望: 7，實際: 0
 <<題號: Q2測資：9>>
 測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 1
+期望: 5，實際: 1
 <<題號: Q2測資：10>>
 測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 2
+期望: 5，實際: 2
 ****************************正確題數:4, 錯誤題數:6****************************
 ---------------------------
 學號:s11420218_Q3.py
@@ -2474,36 +2527,36 @@ Error: list index out of range
 ****************************正確題數:3, 錯誤題數:7****************************
 ---------------------------
 學號:s11420218_Q6.py
-<<題號: Q6測資：1>>
+<<題號: Q6 測資：1>>
 執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: 'tuple' object has no attribute 'sort'
-<<題號: Q6測資：2>>
+Error: 'int' object is not subscriptable
+<<題號: Q6 測資：2>>
 執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: 'tuple' object has no attribute 'sort'
-<<題號: Q6測資：3>>
+Error: 'int' object is not subscriptable
+<<題號: Q6 測資：3>>
 執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: 'tuple' object has no attribute 'sort'
-<<題號: Q6測資：4>>
+Error: 'int' object is not subscriptable
+<<題號: Q6 測資：4>>
 執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: 'tuple' object has no attribute 'sort'
-<<題號: Q6測資：5>>
+Error: 'int' object is not subscriptable
+<<題號: Q6 測資：5>>
 執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: 'tuple' object has no attribute 'sort'
-<<題號: Q6測資：6>>
+Error: 'int' object is not subscriptable
+<<題號: Q6 測資：6>>
 執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: 'tuple' object has no attribute 'sort'
-<<題號: Q6測資：7>>
+Error: 'int' object is not subscriptable
+<<題號: Q6 測資：7>>
 執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: 'tuple' object has no attribute 'sort'
-<<題號: Q6測資：8>>
+Error: 'int' object is not subscriptable
+<<題號: Q6 測資：8>>
 執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: 'tuple' object has no attribute 'sort'
-<<題號: Q6測資：9>>
+Error: 'int' object is not subscriptable
+<<題號: Q6 測資：9>>
 執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: 'tuple' object has no attribute 'sort'
-<<題號: Q6測資：10>>
+Error: 'int' object is not subscriptable
+<<題號: Q6 測資：10>>
 執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: 'tuple' object has no attribute 'sort'
+Error: 'int' object is not subscriptable
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s13350326_Q1.py
@@ -2554,12 +2607,10 @@ Error: 'tuple' object has no attribute 'sort'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350326_Q3.py
 <<題號: Q3測資：1>>
@@ -2586,35 +2637,35 @@ Error: 'tuple' object has no attribute 'sort'
 ---------------------------
 學號:s13350326_Q4.py
 <<題號: Q4測資：1>>
-執行錯誤，輸入: 'racecar'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: racecar
+期望: Palindrome，實際: palindrome
 <<題號: Q4測資：2>>
-執行錯誤，輸入: 'hello'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: hello
+期望: Not Palindrome，實際: palindrome
 <<題號: Q4測資：3>>
-執行錯誤，輸入: 'A man a plan a canal Panama'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: A man a plan a canal Panama
+期望: Palindrome，實際: palindrome
 <<題號: Q4測資：4>>
-執行錯誤，輸入: 'No lemon, no melon'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: No lemon, no melon
+期望: Palindrome，實際: palindrome
 <<題號: Q4測資：5>>
-執行錯誤，輸入: ''
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: 
+期望: Palindrome，實際: palindrome
 <<題號: Q4測資：6>>
-執行錯誤，輸入: 'a'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: a
+期望: Palindrome，實際: palindrome
 <<題號: Q4測資：7>>
-執行錯誤，輸入: 'ab'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: ab
+期望: Not Palindrome，實際: palindrome
 <<題號: Q4測資：8>>
-執行錯誤，輸入: 'madam'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: madam
+期望: Palindrome，實際: palindrome
 <<題號: Q4測資：9>>
-執行錯誤，輸入: 'was it a car or a cat I saw'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: was it a car or a cat I saw
+期望: Palindrome，實際: palindrome
 <<題號: Q4測資：10>>
-執行錯誤，輸入: 'palindrome'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: palindrome
+期望: Not Palindrome，實際: palindrome
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s13350326_Q5.py
@@ -2641,60 +2692,50 @@ Error: invalid syntax (<string>, line 2)
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350326_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350302_Q1.py
 <<題號: Q1測資：1>>
 測試失敗，輸入: Hello, world! Hello everyone.
-期望: 3，實際: 4 (unique words: everyone., world!, Hello,, Hello)
+期望: 3，實際: 4 (unique words: world!, everyone., Hello, Hello,)
 <<題號: Q1測資：2>>
 測試失敗，輸入: Python programming is fun! Programming is amazing.
-期望: 5，實際: 6 (unique words: amazing., fun!, programming, Python, is, Programming)
+期望: 5，實際: 6 (unique words: amazing., programming, Python, fun!, Programming, is)
 <<題號: Q1測資：3>>
 測試失敗，輸入: One one one
 期望: 1，實際: 2 (unique words: one, One)
 <<題號: Q1測資：4>>
 測試失敗，輸入: This is a simple sentence.
-期望: 5，實際: 5 (unique words: sentence., This, is, simple, a)
+期望: 5，實際: 5 (unique words: sentence., simple, a, This, is)
 <<題號: Q1測資：5>>
 測試失敗，輸入: Special characters: !@#$%^&*() should be ignored.
-期望: 5，實際: 6 (unique words: ignored., be, characters:, Special, should, !@#$%^&*())
+期望: 5，實際: 6 (unique words: characters:, be, should, ignored., Special, !@#$%^&*())
 <<題號: Q1測資：6>>
 測試失敗，輸入: A B C a b c
-期望: 3，實際: 6 (unique words: B, C, A, b, c, a)
+期望: 3，實際: 6 (unique words: c, b, A, B, a, C)
 <<題號: Q1測資：7>>
 測試失敗，輸入: The quick brown fox jumps over the lazy dog.
-期望: 8，實際: 9 (unique words: quick, dog., fox, over, The, the, jumps, lazy, brown)
+期望: 8，實際: 9 (unique words: lazy, brown, fox, dog., the, jumps, quick, The, over)
 <<題號: Q1測資：8>>
 測試失敗，輸入: Repeated words, repeated words, repeated.
 期望: 2，實際: 4 (unique words: Repeated, repeated., words,, repeated)
@@ -2703,7 +2744,7 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 期望: 0，實際: 0 (unique words: )
 <<題號: Q1測資：10>>
 測試失敗，輸入: Case insensitivity test: TEST test
-期望: 3，實際: 5 (unique words: test, TEST, Case, test:, insensitivity)
+期望: 3，實際: 5 (unique words: test:, Case, TEST, insensitivity, test)
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s13350302_Q2.py<<題號: Q2測資：1>>
@@ -2732,10 +2773,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 期望: 7，實際: 7 (The longest sequence is [1, 2, 3, 4, 5, 6, 7])
 <<題號: Q2測資：9>>
 測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5 (The longest sequence is [12, 13, 14, 15, 16])
+期望: 5，實際: 5 (The longest sequence is [12, 13, 14, 15, 16])
 <<題號: Q2測資：10>>
 測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5 (The longest sequence is [5, 6, 7, 8, 9])
+期望: 5，實際: 5 (The longest sequence is [5, 6, 7, 8, 9])
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s13350302_Q3.py
@@ -2763,36 +2804,29 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ---------------------------
 學號:s13350302_Q4.py
 <<題號: Q4測資：1>>
-執行錯誤，輸入: 'racecar'
-Error: invalid syntax (<string>, line 11)
+通過測試: racecar
 <<題號: Q4測資：2>>
-執行錯誤，輸入: 'hello'
-Error: invalid syntax (<string>, line 11)
+通過測試: hello
 <<題號: Q4測資：3>>
-執行錯誤，輸入: 'A man a plan a canal Panama'
-Error: invalid syntax (<string>, line 11)
+測試失敗，輸入: A man a plan a canal Panama
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：4>>
-執行錯誤，輸入: 'No lemon, no melon'
-Error: invalid syntax (<string>, line 11)
+測試失敗，輸入: No lemon, no melon
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：5>>
-執行錯誤，輸入: ''
-Error: invalid syntax (<string>, line 11)
+通過測試: 
 <<題號: Q4測資：6>>
-執行錯誤，輸入: 'a'
-Error: invalid syntax (<string>, line 11)
+通過測試: a
 <<題號: Q4測資：7>>
-執行錯誤，輸入: 'ab'
-Error: invalid syntax (<string>, line 11)
+通過測試: ab
 <<題號: Q4測資：8>>
-執行錯誤，輸入: 'madam'
-Error: invalid syntax (<string>, line 11)
+通過測試: madam
 <<題號: Q4測資：9>>
-執行錯誤，輸入: 'was it a car or a cat I saw'
-Error: invalid syntax (<string>, line 11)
+測試失敗，輸入: was it a car or a cat I saw
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：10>>
-執行錯誤，輸入: 'palindrome'
-Error: invalid syntax (<string>, line 11)
-****************************正確題數:0, 錯誤題數:10****************************
+通過測試: palindrome
+****************************正確題數:7, 錯誤題數:3****************************
 ---------------------------
 學號:s13350302_Q5.py
 <<題號: Q5測資：1>>
@@ -2818,37 +2852,36 @@ Error: invalid syntax (<string>, line 11)
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350302_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+測試失敗，輸入: ([2, 3, 1, 2, 4, 3], 7)
+期望: 2，實際: [4, 3]
+<<題號: Q6 測資：2>>
+測試失敗，輸入: ([1, 2, 3, 4, 5], 11)
+期望: 3，實際: [3, 4, 5]
+<<題號: Q6 測資：3>>
+測試失敗，輸入: ([1, 4, 4], 8)
+期望: 2，實際: [4, 4]
+<<題號: Q6 測資：4>>
+測試失敗，輸入: ([1, 2, 3, 4, 5], 15)
+期望: 5，實際: [1, 2, 3, 4, 5]
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+測試失敗，輸入: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+期望: 2，實際: [5, 10]
+<<題號: Q6 測資：7>>
+測試失敗，輸入: ([1, 1, 1, 1, 1, 1], 3)
+期望: 3，實際: [1, 1, 1]
+<<題號: Q6 測資：8>>
+測試失敗，輸入: ([4, 3, 1, 2, 6], 6)
+期望: 1，實際: [6]
+<<題號: Q6 測資：9>>
+測試失敗，輸入: ([1, 2, 3], 6)
+期望: 3，實際: [1, 2, 3]
+<<題號: Q6 測資：10>>
+測試失敗，輸入: ([2, 3, 5, 7, 10, 15], 20)
+期望: 2，實際: [10, 15]
+****************************正確題數:1, 錯誤題數:9****************************
 ---------------------------
 學號:s13350318_Q1.py
 <<題號: Q1測資：1>>
@@ -2909,10 +2942,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 期望: 7，實際: 7 (The longest sequence is [1, 2, 3, 4, 5, 6, 7] )
 <<題號: Q2測資：9>>
 測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5 (The longest sequence is [12, 13, 14, 15, 16] )
+期望: 5，實際: 5 (The longest sequence is [12, 13, 14, 15, 16] )
 <<題號: Q2測資：10>>
 測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5 (The longest sequence is [5, 6, 7, 8, 9] )
+期望: 5，實際: 5 (The longest sequence is [5, 6, 7, 8, 9] )
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s13350318_Q3.py
@@ -2940,36 +2973,29 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ---------------------------
 學號:s13350318_Q4.py
 <<題號: Q4測資：1>>
-執行錯誤，輸入: 'racecar'
-Error: invalid syntax (<string>, line 2)
+通過測試: racecar
 <<題號: Q4測資：2>>
-執行錯誤，輸入: 'hello'
-Error: invalid syntax (<string>, line 2)
+通過測試: hello
 <<題號: Q4測資：3>>
-執行錯誤，輸入: 'A man a plan a canal Panama'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: A man a plan a canal Panama
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：4>>
-執行錯誤，輸入: 'No lemon, no melon'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: No lemon, no melon
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：5>>
-執行錯誤，輸入: ''
-Error: invalid syntax (<string>, line 2)
+通過測試: 
 <<題號: Q4測資：6>>
-執行錯誤，輸入: 'a'
-Error: invalid syntax (<string>, line 2)
+通過測試: a
 <<題號: Q4測資：7>>
-執行錯誤，輸入: 'ab'
-Error: invalid syntax (<string>, line 2)
+通過測試: ab
 <<題號: Q4測資：8>>
-執行錯誤，輸入: 'madam'
-Error: invalid syntax (<string>, line 2)
+通過測試: madam
 <<題號: Q4測資：9>>
-執行錯誤，輸入: 'was it a car or a cat I saw'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: was it a car or a cat I saw
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：10>>
-執行錯誤，輸入: 'palindrome'
-Error: invalid syntax (<string>, line 2)
-****************************正確題數:0, 錯誤題數:10****************************
+通過測試: palindrome
+****************************正確題數:7, 錯誤題數:3****************************
 ---------------------------
 學號:s13350318_Q5.py
 <<題號: Q5測資：1>>
@@ -2995,36 +3021,36 @@ Error: invalid syntax (<string>, line 2)
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350318_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +: 'int' and 'list'
+<<題號: Q6 測資：1>>
+測試失敗，輸入: ([2, 3, 1, 2, 4, 3], 7)
+期望: 2，實際: 2 (smallest subarray [4, 3] )
+<<題號: Q6 測資：2>>
+測試失敗，輸入: ([1, 2, 3, 4, 5], 11)
+期望: 3，實際: 3 (smallest subarray [3, 4, 5] )
+<<題號: Q6 測資：3>>
+測試失敗，輸入: ([1, 4, 4], 8)
+期望: 2，實際: 2 (smallest subarray [4, 4] )
+<<題號: Q6 測資：4>>
+測試失敗，輸入: ([1, 2, 3, 4, 5], 15)
+期望: 5，實際: 5 (smallest subarray [1, 2, 3, 4, 5] )
+<<題號: Q6 測資：5>>
+測試失敗，輸入: ([2, 3, 1, 2, 4, 3], 100)
+期望: 0，實際: 0 (smallest subarray [] )
+<<題號: Q6 測資：6>>
+測試失敗，輸入: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+期望: 2，實際: 2 (smallest subarray [9, 2, 8] )
+<<題號: Q6 測資：7>>
+測試失敗，輸入: ([1, 1, 1, 1, 1, 1], 3)
+期望: 3，實際: 3 (smallest subarray [1, 1, 1] )
+<<題號: Q6 測資：8>>
+測試失敗，輸入: ([4, 3, 1, 2, 6], 6)
+期望: 1，實際: 1 (smallest subarray [6] )
+<<題號: Q6 測資：9>>
+測試失敗，輸入: ([1, 2, 3], 6)
+期望: 3，實際: 3 (smallest subarray [1, 2, 3] )
+<<題號: Q6 測資：10>>
+測試失敗，輸入: ([2, 3, 5, 7, 10, 15], 20)
+期望: 2，實際: 2 (smallest subarray [10, 15] )
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s12232037_Q1.py
@@ -3067,12 +3093,10 @@ Error: unsupported operand type(s) for +: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s12232037_Q3.py
 <<題號: Q3測資：1>>
@@ -3099,36 +3123,29 @@ Error: unsupported operand type(s) for +: 'int' and 'list'
 ---------------------------
 學號:s12232037_Q4.py
 <<題號: Q4測資：1>>
-執行錯誤，輸入: 'racecar'
-Error: invalid syntax (<string>, line 2)
+通過測試: racecar
 <<題號: Q4測資：2>>
-執行錯誤，輸入: 'hello'
-Error: invalid syntax (<string>, line 2)
+通過測試: hello
 <<題號: Q4測資：3>>
-執行錯誤，輸入: 'A man a plan a canal Panama'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: A man a plan a canal Panama
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：4>>
-執行錯誤，輸入: 'No lemon, no melon'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: No lemon, no melon
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：5>>
-執行錯誤，輸入: ''
-Error: invalid syntax (<string>, line 2)
+通過測試: 
 <<題號: Q4測資：6>>
-執行錯誤，輸入: 'a'
-Error: invalid syntax (<string>, line 2)
+通過測試: a
 <<題號: Q4測資：7>>
-執行錯誤，輸入: 'ab'
-Error: invalid syntax (<string>, line 2)
+通過測試: ab
 <<題號: Q4測資：8>>
-執行錯誤，輸入: 'madam'
-Error: invalid syntax (<string>, line 2)
+通過測試: madam
 <<題號: Q4測資：9>>
-執行錯誤，輸入: 'was it a car or a cat I saw'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: was it a car or a cat I saw
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：10>>
-執行錯誤，輸入: 'palindrome'
-Error: invalid syntax (<string>, line 2)
-****************************正確題數:0, 錯誤題數:10****************************
+通過測試: palindrome
+****************************正確題數:7, 錯誤題數:3****************************
 ---------------------------
 學號:s12232037_Q5.py
 <<題號: Q5測資：1>>
@@ -3154,60 +3171,50 @@ Error: invalid syntax (<string>, line 2)
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s12232037_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s12310231_Q1.py
 <<題號: Q1測資：1>>
 測試失敗，輸入: Hello, world! Hello everyone.
-期望: 3，實際: {'everyone.', 'world!', 'Hello,', 'Hello'}
+期望: 3，實際: {'world!', 'everyone.', 'Hello', 'Hello,'}
 <<題號: Q1測資：2>>
 測試失敗，輸入: Python programming is fun! Programming is amazing.
-期望: 5，實際: {'amazing.', 'fun!', 'programming', 'Python', 'is', 'Programming'}
+期望: 5，實際: {'amazing.', 'programming', 'Python', 'fun!', 'Programming', 'is'}
 <<題號: Q1測資：3>>
 測試失敗，輸入: One one one
 期望: 1，實際: {'one', 'One'}
 <<題號: Q1測資：4>>
 測試失敗，輸入: This is a simple sentence.
-期望: 5，實際: {'sentence.', 'This', 'is', 'simple', 'a'}
+期望: 5，實際: {'sentence.', 'simple', 'a', 'This', 'is'}
 <<題號: Q1測資：5>>
 測試失敗，輸入: Special characters: !@#$%^&*() should be ignored.
-期望: 5，實際: {'ignored.', 'be', 'characters:', 'Special', 'should', '!@#$%^&*()'}
+期望: 5，實際: {'characters:', 'be', 'should', 'ignored.', 'Special', '!@#$%^&*()'}
 <<題號: Q1測資：6>>
 測試失敗，輸入: A B C a b c
-期望: 3，實際: {'B', 'C', 'A', 'b', 'c', 'a'}
+期望: 3，實際: {'c', 'b', 'A', 'B', 'a', 'C'}
 <<題號: Q1測資：7>>
 測試失敗，輸入: The quick brown fox jumps over the lazy dog.
-期望: 8，實際: {'quick', 'dog.', 'fox', 'over', 'The', 'the', 'jumps', 'lazy', 'brown'}
+期望: 8，實際: {'lazy', 'brown', 'fox', 'dog.', 'the', 'jumps', 'quick', 'The', 'over'}
 <<題號: Q1測資：8>>
 測試失敗，輸入: Repeated words, repeated words, repeated.
 期望: 2，實際: {'Repeated', 'repeated.', 'words,', 'repeated'}
@@ -3216,7 +3223,7 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 期望: 0，實際: set()
 <<題號: Q1測資：10>>
 測試失敗，輸入: Case insensitivity test: TEST test
-期望: 3，實際: {'test', 'TEST', 'Case', 'test:', 'insensitivity'}
+期望: 3，實際: {'test:', 'Case', 'TEST', 'insensitivity', 'test'}
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s12310231_Q2.py<<題號: Q2測資：1>>
@@ -3236,12 +3243,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s12310231_Q3.py
 <<題號: Q3測資：1>>
@@ -3268,36 +3273,29 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ---------------------------
 學號:s12310231_Q4.py
 <<題號: Q4測資：1>>
-執行錯誤，輸入: 'racecar'
-Error: invalid syntax (<string>, line 2)
+通過測試: racecar
 <<題號: Q4測資：2>>
-執行錯誤，輸入: 'hello'
-Error: invalid syntax (<string>, line 2)
+通過測試: hello
 <<題號: Q4測資：3>>
-執行錯誤，輸入: 'A man a plan a canal Panama'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: A man a plan a canal Panama
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：4>>
-執行錯誤，輸入: 'No lemon, no melon'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: No lemon, no melon
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：5>>
-執行錯誤，輸入: ''
-Error: invalid syntax (<string>, line 2)
+通過測試: 
 <<題號: Q4測資：6>>
-執行錯誤，輸入: 'a'
-Error: invalid syntax (<string>, line 2)
+通過測試: a
 <<題號: Q4測資：7>>
-執行錯誤，輸入: 'ab'
-Error: invalid syntax (<string>, line 2)
+通過測試: ab
 <<題號: Q4測資：8>>
-執行錯誤，輸入: 'madam'
-Error: invalid syntax (<string>, line 2)
+通過測試: madam
 <<題號: Q4測資：9>>
-執行錯誤，輸入: 'was it a car or a cat I saw'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: was it a car or a cat I saw
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：10>>
-執行錯誤，輸入: 'palindrome'
-Error: invalid syntax (<string>, line 2)
-****************************正確題數:0, 錯誤題數:10****************************
+通過測試: palindrome
+****************************正確題數:7, 錯誤題數:3****************************
 ---------------------------
 學號:s12310231_Q5.py
 <<題號: Q5測資：1>>
@@ -3323,34 +3321,34 @@ Error: invalid syntax (<string>, line 2)
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s12310231_Q6.py
-<<題號: Q6測資：1>>
+<<題號: Q6 測資：1>>
 執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
 Error: name 'target' is not defined
-<<題號: Q6測資：2>>
+<<題號: Q6 測資：2>>
 執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
 Error: name 'target' is not defined
-<<題號: Q6測資：3>>
+<<題號: Q6 測資：3>>
 執行錯誤，輸入: '([1, 4, 4], 8)'
 Error: name 'target' is not defined
-<<題號: Q6測資：4>>
+<<題號: Q6 測資：4>>
 執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
 Error: name 'target' is not defined
-<<題號: Q6測資：5>>
+<<題號: Q6 測資：5>>
 執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
 Error: name 'target' is not defined
-<<題號: Q6測資：6>>
+<<題號: Q6 測資：6>>
 執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
 Error: name 'target' is not defined
-<<題號: Q6測資：7>>
+<<題號: Q6 測資：7>>
 執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
 Error: name 'target' is not defined
-<<題號: Q6測資：8>>
+<<題號: Q6 測資：8>>
 執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
 Error: name 'target' is not defined
-<<題號: Q6測資：9>>
+<<題號: Q6 測資：9>>
 執行錯誤，輸入: '([1, 2, 3], 6)'
 Error: name 'target' is not defined
-<<題號: Q6測資：10>>
+<<題號: Q6 測資：10>>
 執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
 Error: name 'target' is not defined
 ****************************正確題數:0, 錯誤題數:10****************************
@@ -3395,12 +3393,10 @@ Error: name 'target' is not defined
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350346_Q3.py
 <<題號: Q3測資：1>>
@@ -3500,37 +3496,28 @@ Error: 'int' object is not iterable
 ****************************正確題數:2, 錯誤題數:8****************************
 ---------------------------
 學號:s13350346_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+測試失敗，輸入: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+期望: 2，實際: 3
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:9, 錯誤題數:1****************************
 ---------------------------
 學號:s13350322_Q1.py
 <<題號: Q1測資：1>>
@@ -3572,12 +3559,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350322_Q3.py
 <<題號: Q3測資：1>>
@@ -3652,37 +3637,27 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350322_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350320_Q1.py
 <<題號: Q1測資：1>>
@@ -3765,7 +3740,7 @@ Error: max() arg is an empty sequence
 7
 <<題號: Q2測資：9>>
 測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 0 10 12
+期望: 5，實際: 0 10 12
 2 12 13
 1 13 14
 1 14 15
@@ -3773,7 +3748,7 @@ Error: max() arg is an empty sequence
 5
 <<題號: Q2測資：10>>
 測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 0 1 2
+期望: 5，實際: 0 1 2
 1 2 5
 3 5 6
 1 6 7
@@ -3877,37 +3852,30 @@ Error: 'int' object is not iterable
 ****************************正確題數:1, 錯誤題數:9****************************
 ---------------------------
 學號:s13350320_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+測試失敗，輸入: ([1, 2, 3, 4, 5], 11)
+期望: 3，實際: 
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+測試失敗，輸入: ([2, 3, 1, 2, 4, 3], 100)
+期望: 0，實際: 
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+測試失敗，輸入: ([2, 3, 5, 7, 10, 15], 20)
+期望: 2，實際: 
+****************************正確題數:7, 錯誤題數:3****************************
 ---------------------------
 學號:s13350308_Q1.py
 <<題號: Q1測資：1>>
@@ -3959,12 +3927,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:7, 錯誤題數:3****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:9, 錯誤題數:1****************************
 ---------------------------
 學號:s13350308_Q3.py
 <<題號: Q3測資：1>>
@@ -4049,37 +4015,28 @@ Error: 'int' object is not iterable
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350308_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+測試失敗，輸入: ([2, 3, 1, 2, 4, 3], 100)
+期望: 0，實際: inf
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:9, 錯誤題數:1****************************
 ---------------------------
 學號:s13350335_Q1.py
 <<題號: Q1測資：1>>
@@ -4145,11 +4102,11 @@ Error: list index out of range
 7
 <<題號: Q2測資：9>>
 測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: [10, 12, 13, 14, 15, 16]
+期望: 5，實際: [10, 12, 13, 14, 15, 16]
 5
 <<題號: Q2測資：10>>
 測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: [1, 2, 5, 6, 7, 8, 9]
+期望: 5，實際: [1, 2, 5, 6, 7, 8, 9]
 5
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
@@ -4178,36 +4135,29 @@ Error: list index out of range
 ---------------------------
 學號:s13350335_Q4.py
 <<題號: Q4測資：1>>
-執行錯誤，輸入: 'racecar'
-Error: invalid syntax (<string>, line 2)
+通過測試: racecar
 <<題號: Q4測資：2>>
-執行錯誤，輸入: 'hello'
-Error: invalid syntax (<string>, line 2)
+通過測試: hello
 <<題號: Q4測資：3>>
-執行錯誤，輸入: 'A man a plan a canal Panama'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: A man a plan a canal Panama
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：4>>
-執行錯誤，輸入: 'No lemon, no melon'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: No lemon, no melon
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：5>>
-執行錯誤，輸入: ''
-Error: invalid syntax (<string>, line 2)
+通過測試: 
 <<題號: Q4測資：6>>
-執行錯誤，輸入: 'a'
-Error: invalid syntax (<string>, line 2)
+通過測試: a
 <<題號: Q4測資：7>>
-執行錯誤，輸入: 'ab'
-Error: invalid syntax (<string>, line 2)
+通過測試: ab
 <<題號: Q4測資：8>>
-執行錯誤，輸入: 'madam'
-Error: invalid syntax (<string>, line 2)
+通過測試: madam
 <<題號: Q4測資：9>>
-執行錯誤，輸入: 'was it a car or a cat I saw'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: was it a car or a cat I saw
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：10>>
-執行錯誤，輸入: 'palindrome'
-Error: invalid syntax (<string>, line 2)
-****************************正確題數:0, 錯誤題數:10****************************
+通過測試: palindrome
+****************************正確題數:7, 錯誤題數:3****************************
 ---------------------------
 學號:s13350335_Q5.py
 <<題號: Q5測資：1>>
@@ -4237,37 +4187,27 @@ Error: invalid syntax (<string>, line 2)
 ****************************正確題數:6, 錯誤題數:4****************************
 ---------------------------
 學號:s13350335_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s11110213_Q1.py
 <<題號: Q1測資：1>>
@@ -4309,12 +4249,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s11110213_Q3.py
 <<題號: Q3測資：1>>
@@ -4341,36 +4279,29 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ---------------------------
 學號:s11110213_Q4.py
 <<題號: Q4測資：1>>
-執行錯誤，輸入: 'racecar'
-Error: invalid syntax (<string>, line 3)
+通過測試: racecar
 <<題號: Q4測資：2>>
-執行錯誤，輸入: 'hello'
-Error: invalid syntax (<string>, line 3)
+通過測試: hello
 <<題號: Q4測資：3>>
-執行錯誤，輸入: 'A man a plan a canal Panama'
-Error: invalid syntax (<string>, line 3)
+測試失敗，輸入: A man a plan a canal Panama
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：4>>
-執行錯誤，輸入: 'No lemon, no melon'
-Error: invalid syntax (<string>, line 3)
+測試失敗，輸入: No lemon, no melon
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：5>>
-執行錯誤，輸入: ''
-Error: invalid syntax (<string>, line 3)
+通過測試: 
 <<題號: Q4測資：6>>
-執行錯誤，輸入: 'a'
-Error: invalid syntax (<string>, line 3)
+通過測試: a
 <<題號: Q4測資：7>>
-執行錯誤，輸入: 'ab'
-Error: invalid syntax (<string>, line 3)
+通過測試: ab
 <<題號: Q4測資：8>>
-執行錯誤，輸入: 'madam'
-Error: invalid syntax (<string>, line 3)
+通過測試: madam
 <<題號: Q4測資：9>>
-執行錯誤，輸入: 'was it a car or a cat I saw'
-Error: invalid syntax (<string>, line 3)
+測試失敗，輸入: was it a car or a cat I saw
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：10>>
-執行錯誤，輸入: 'palindrome'
-Error: invalid syntax (<string>, line 3)
-****************************正確題數:0, 錯誤題數:10****************************
+通過測試: palindrome
+****************************正確題數:7, 錯誤題數:3****************************
 ---------------------------
 學號:s11110213_Q5.py
 <<題號: Q5測資：1>>
@@ -4396,37 +4327,27 @@ Error: invalid syntax (<string>, line 3)
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s11110213_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350340_Q1.py
 <<題號: Q1測資：1>>
@@ -4478,12 +4399,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:7, 錯誤題數:3****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:9, 錯誤題數:1****************************
 ---------------------------
 學號:s13350340_Q3.py
 <<題號: Q3測資：1>>
@@ -4555,37 +4474,27 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350340_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350334_Q1.py
 <<題號: Q1測資：1>>
@@ -4629,12 +4538,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350334_Q3.py
 <<題號: Q3測資：1>>
@@ -4729,37 +4636,27 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s13350334_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350338_Q1.py
 <<題號: Q1測資：1>>
@@ -4802,12 +4699,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:7, 錯誤題數:3****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:9, 錯誤題數:1****************************
 ---------------------------
 學號:s13350338_Q3.py
 <<題號: Q3測資：1>>
@@ -4834,36 +4729,29 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ---------------------------
 學號:s13350338_Q4.py
 <<題號: Q4測資：1>>
-執行錯誤，輸入: 'racecar'
-Error: invalid syntax (<string>, line 3)
+通過測試: racecar
 <<題號: Q4測資：2>>
-執行錯誤，輸入: 'hello'
-Error: invalid syntax (<string>, line 3)
+通過測試: hello
 <<題號: Q4測資：3>>
-執行錯誤，輸入: 'A man a plan a canal Panama'
-Error: invalid syntax (<string>, line 3)
+測試失敗，輸入: A man a plan a canal Panama
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：4>>
-執行錯誤，輸入: 'No lemon, no melon'
-Error: invalid syntax (<string>, line 3)
+測試失敗，輸入: No lemon, no melon
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：5>>
-執行錯誤，輸入: ''
-Error: invalid syntax (<string>, line 3)
+通過測試: 
 <<題號: Q4測資：6>>
-執行錯誤，輸入: 'a'
-Error: invalid syntax (<string>, line 3)
+通過測試: a
 <<題號: Q4測資：7>>
-執行錯誤，輸入: 'ab'
-Error: invalid syntax (<string>, line 3)
+通過測試: ab
 <<題號: Q4測資：8>>
-執行錯誤，輸入: 'madam'
-Error: invalid syntax (<string>, line 3)
+通過測試: madam
 <<題號: Q4測資：9>>
-執行錯誤，輸入: 'was it a car or a cat I saw'
-Error: invalid syntax (<string>, line 3)
+測試失敗，輸入: was it a car or a cat I saw
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：10>>
-執行錯誤，輸入: 'palindrome'
-Error: invalid syntax (<string>, line 3)
-****************************正確題數:0, 錯誤題數:10****************************
+通過測試: palindrome
+****************************正確題數:7, 錯誤題數:3****************************
 ---------------------------
 學號:s13350338_Q5.py
 <<題號: Q5測資：1>>
@@ -4889,37 +4777,27 @@ Error: invalid syntax (<string>, line 3)
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350338_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350339_Q1.py
 <<題號: Q1測資：1>>
@@ -4968,12 +4846,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:7, 錯誤題數:3****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:9, 錯誤題數:1****************************
 ---------------------------
 學號:s13350339_Q3.py
 <<題號: Q3測資：1>>
@@ -5010,36 +4886,29 @@ Error: can only join an iterable
 ---------------------------
 學號:s13350339_Q4.py
 <<題號: Q4測資：1>>
-執行錯誤，輸入: 'racecar'
-Error: invalid syntax (<string>, line 3)
+通過測試: racecar
 <<題號: Q4測資：2>>
-執行錯誤，輸入: 'hello'
-Error: invalid syntax (<string>, line 3)
+通過測試: hello
 <<題號: Q4測資：3>>
-執行錯誤，輸入: 'A man a plan a canal Panama'
-Error: invalid syntax (<string>, line 3)
+測試失敗，輸入: A man a plan a canal Panama
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：4>>
-執行錯誤，輸入: 'No lemon, no melon'
-Error: invalid syntax (<string>, line 3)
+測試失敗，輸入: No lemon, no melon
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：5>>
-執行錯誤，輸入: ''
-Error: invalid syntax (<string>, line 3)
+通過測試: 
 <<題號: Q4測資：6>>
-執行錯誤，輸入: 'a'
-Error: invalid syntax (<string>, line 3)
+通過測試: a
 <<題號: Q4測資：7>>
-執行錯誤，輸入: 'ab'
-Error: invalid syntax (<string>, line 3)
+通過測試: ab
 <<題號: Q4測資：8>>
-執行錯誤，輸入: 'madam'
-Error: invalid syntax (<string>, line 3)
+通過測試: madam
 <<題號: Q4測資：9>>
-執行錯誤，輸入: 'was it a car or a cat I saw'
-Error: invalid syntax (<string>, line 3)
+測試失敗，輸入: was it a car or a cat I saw
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：10>>
-執行錯誤，輸入: 'palindrome'
-Error: invalid syntax (<string>, line 3)
-****************************正確題數:0, 錯誤題數:10****************************
+通過測試: palindrome
+****************************正確題數:7, 錯誤題數:3****************************
 ---------------------------
 學號:s13350339_Q5.py
 <<題號: Q5測資：1>>
@@ -5072,34 +4941,34 @@ Error: list index out of range
 ****************************正確題數:3, 錯誤題數:7****************************
 ---------------------------
 學號:s13350339_Q6.py
-<<題號: Q6測資：1>>
+<<題號: Q6 測資：1>>
 測試失敗，輸入: ([2, 3, 1, 2, 4, 3], 7)
 期望: 2，實際: 
-<<題號: Q6測資：2>>
+<<題號: Q6 測資：2>>
 測試失敗，輸入: ([1, 2, 3, 4, 5], 11)
 期望: 3，實際: 
-<<題號: Q6測資：3>>
+<<題號: Q6 測資：3>>
 測試失敗，輸入: ([1, 4, 4], 8)
 期望: 2，實際: 
-<<題號: Q6測資：4>>
+<<題號: Q6 測資：4>>
 測試失敗，輸入: ([1, 2, 3, 4, 5], 15)
 期望: 5，實際: 
-<<題號: Q6測資：5>>
+<<題號: Q6 測資：5>>
 測試失敗，輸入: ([2, 3, 1, 2, 4, 3], 100)
 期望: 0，實際: 
-<<題號: Q6測資：6>>
+<<題號: Q6 測資：6>>
 測試失敗，輸入: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
 期望: 2，實際: 
-<<題號: Q6測資：7>>
+<<題號: Q6 測資：7>>
 測試失敗，輸入: ([1, 1, 1, 1, 1, 1], 3)
 期望: 3，實際: 
-<<題號: Q6測資：8>>
+<<題號: Q6 測資：8>>
 測試失敗，輸入: ([4, 3, 1, 2, 6], 6)
 期望: 1，實際: 
-<<題號: Q6測資：9>>
+<<題號: Q6 測資：9>>
 測試失敗，輸入: ([1, 2, 3], 6)
 期望: 3，實際: 
-<<題號: Q6測資：10>>
+<<題號: Q6 測資：10>>
 測試失敗，輸入: ([2, 3, 5, 7, 10, 15], 20)
 期望: 2，實際: 
 ****************************正確題數:0, 錯誤題數:10****************************
@@ -5146,12 +5015,10 @@ Error: list index out of range
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350330_Q3.py
 <<題號: Q3測資：1>>
@@ -5178,36 +5045,29 @@ Error: list index out of range
 ---------------------------
 學號:s13350330_Q4.py
 <<題號: Q4測資：1>>
-執行錯誤，輸入: 'racecar'
-Error: invalid syntax (<string>, line 3)
+通過測試: racecar
 <<題號: Q4測資：2>>
-執行錯誤，輸入: 'hello'
-Error: invalid syntax (<string>, line 3)
+通過測試: hello
 <<題號: Q4測資：3>>
-執行錯誤，輸入: 'A man a plan a canal Panama'
-Error: invalid syntax (<string>, line 3)
+測試失敗，輸入: A man a plan a canal Panama
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：4>>
-執行錯誤，輸入: 'No lemon, no melon'
-Error: invalid syntax (<string>, line 3)
+測試失敗，輸入: No lemon, no melon
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：5>>
-執行錯誤，輸入: ''
-Error: invalid syntax (<string>, line 3)
+通過測試: 
 <<題號: Q4測資：6>>
-執行錯誤，輸入: 'a'
-Error: invalid syntax (<string>, line 3)
+通過測試: a
 <<題號: Q4測資：7>>
-執行錯誤，輸入: 'ab'
-Error: invalid syntax (<string>, line 3)
+通過測試: ab
 <<題號: Q4測資：8>>
-執行錯誤，輸入: 'madam'
-Error: invalid syntax (<string>, line 3)
+通過測試: madam
 <<題號: Q4測資：9>>
-執行錯誤，輸入: 'was it a car or a cat I saw'
-Error: invalid syntax (<string>, line 3)
+測試失敗，輸入: was it a car or a cat I saw
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：10>>
-執行錯誤，輸入: 'palindrome'
-Error: invalid syntax (<string>, line 3)
-****************************正確題數:0, 錯誤題數:10****************************
+通過測試: palindrome
+****************************正確題數:7, 錯誤題數:3****************************
 ---------------------------
 學號:s13350330_Q5.py
 <<題號: Q5測資：1>>
@@ -5233,37 +5093,27 @@ Error: invalid syntax (<string>, line 3)
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350330_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350310_Q1.py
 <<題號: Q1測資：1>>
@@ -5307,12 +5157,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:6, 錯誤題數:4****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:8, 錯誤題數:2****************************
 ---------------------------
 學號:s13350310_Q3.py
 <<題號: Q3測資：1>>
@@ -5339,36 +5187,29 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ---------------------------
 學號:s13350310_Q4.py
 <<題號: Q4測資：1>>
-執行錯誤，輸入: 'racecar'
-Error: invalid syntax (<string>, line 5)
+通過測試: racecar
 <<題號: Q4測資：2>>
-執行錯誤，輸入: 'hello'
-Error: invalid syntax (<string>, line 5)
+通過測試: hello
 <<題號: Q4測資：3>>
-執行錯誤，輸入: 'A man a plan a canal Panama'
-Error: invalid syntax (<string>, line 5)
+測試失敗，輸入: A man a plan a canal Panama
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：4>>
-執行錯誤，輸入: 'No lemon, no melon'
-Error: invalid syntax (<string>, line 5)
+測試失敗，輸入: No lemon, no melon
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：5>>
-執行錯誤，輸入: ''
-Error: invalid syntax (<string>, line 5)
+通過測試: 
 <<題號: Q4測資：6>>
-執行錯誤，輸入: 'a'
-Error: invalid syntax (<string>, line 5)
+通過測試: a
 <<題號: Q4測資：7>>
-執行錯誤，輸入: 'ab'
-Error: invalid syntax (<string>, line 5)
+通過測試: ab
 <<題號: Q4測資：8>>
-執行錯誤，輸入: 'madam'
-Error: invalid syntax (<string>, line 5)
+通過測試: madam
 <<題號: Q4測資：9>>
-執行錯誤，輸入: 'was it a car or a cat I saw'
-Error: invalid syntax (<string>, line 5)
+測試失敗，輸入: was it a car or a cat I saw
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：10>>
-執行錯誤，輸入: 'palindrome'
-Error: invalid syntax (<string>, line 5)
-****************************正確題數:0, 錯誤題數:10****************************
+通過測試: palindrome
+****************************正確題數:7, 錯誤題數:3****************************
 ---------------------------
 學號:s13350310_Q5.py
 <<題號: Q5測資：1>>
@@ -5394,37 +5235,28 @@ Error: invalid syntax (<string>, line 5)
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350310_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+測試失敗，輸入: ([2, 3, 1, 2, 4, 3], 100)
+期望: 0，實際: inf
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:9, 錯誤題數:1****************************
 ---------------------------
 學號:s11910036_Q1.py
 <<題號: Q1測資：1>>
@@ -5467,12 +5299,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s11910036_Q3.py
 <<題號: Q3測資：1>>
@@ -5547,37 +5377,27 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s11910036_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350332_Q1.py
 <<題號: Q1測資：1>>
@@ -5638,10 +5458,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 期望: 7，實際: The length of the longest consecutive sequence is: 7
 <<題號: Q2測資：9>>
 測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: The length of the longest consecutive sequence is: 5
+期望: 5，實際: The length of the longest consecutive sequence is: 5
 <<題號: Q2測資：10>>
 測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: The length of the longest consecutive sequence is: 5
+期望: 5，實際: The length of the longest consecutive sequence is: 5
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s13350332_Q3.py
@@ -5714,37 +5534,27 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350332_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s12350314_Q1.py
 <<題號: Q1測資：1>>
@@ -5805,10 +5615,10 @@ Error: list index out of range
 期望: 7，實際: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
 測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: [12, 13, 14, 15, 16]
+期望: 5，實際: [12, 13, 14, 15, 16]
 <<題號: Q2測資：10>>
 測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: [1, 5, 6, 7, 8, 9]
+期望: 5，實際: [1, 5, 6, 7, 8, 9]
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s12350314_Q3.py
@@ -5890,37 +5700,27 @@ Error: list index out of range
 ****************************正確題數:4, 錯誤題數:6****************************
 ---------------------------
 學號:s12350314_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350309_Q1.py
 <<題號: Q1測資：1>>
@@ -5962,12 +5762,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350309_Q3.py
 <<題號: Q3測資：1>>
@@ -6042,37 +5840,27 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350309_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350345_Q1.py
 <<題號: Q1測資：1>>
@@ -6129,10 +5917,10 @@ Error: list index out of range
 Error: list index out of range
 <<題號: Q2測資：9>>
 測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 0
+期望: 5，實際: 0
 <<題號: Q2測資：10>>
 測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 2
+期望: 5，實際: 2
 ****************************正確題數:4, 錯誤題數:6****************************
 ---------------------------
 學號:s13350345_Q3.py
@@ -6223,37 +6011,27 @@ Error: list index out of range
 ****************************正確題數:4, 錯誤題數:6****************************
 ---------------------------
 學號:s13350345_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350343_Q1.py
 <<題號: Q1測資：1>>
@@ -6295,12 +6073,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350343_Q3.py
 <<題號: Q3測資：1>>
@@ -6327,36 +6103,29 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ---------------------------
 學號:s13350343_Q4.py
 <<題號: Q4測資：1>>
-執行錯誤，輸入: 'racecar'
-Error: invalid syntax (<string>, line 4)
+通過測試: racecar
 <<題號: Q4測資：2>>
-執行錯誤，輸入: 'hello'
-Error: invalid syntax (<string>, line 4)
+通過測試: hello
 <<題號: Q4測資：3>>
-執行錯誤，輸入: 'A man a plan a canal Panama'
-Error: invalid syntax (<string>, line 4)
+測試失敗，輸入: A man a plan a canal Panama
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：4>>
-執行錯誤，輸入: 'No lemon, no melon'
-Error: invalid syntax (<string>, line 4)
+測試失敗，輸入: No lemon, no melon
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：5>>
-執行錯誤，輸入: ''
-Error: invalid syntax (<string>, line 4)
+通過測試: 
 <<題號: Q4測資：6>>
-執行錯誤，輸入: 'a'
-Error: invalid syntax (<string>, line 4)
+通過測試: a
 <<題號: Q4測資：7>>
-執行錯誤，輸入: 'ab'
-Error: invalid syntax (<string>, line 4)
+通過測試: ab
 <<題號: Q4測資：8>>
-執行錯誤，輸入: 'madam'
-Error: invalid syntax (<string>, line 4)
+通過測試: madam
 <<題號: Q4測資：9>>
-執行錯誤，輸入: 'was it a car or a cat I saw'
-Error: invalid syntax (<string>, line 4)
+測試失敗，輸入: was it a car or a cat I saw
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：10>>
-執行錯誤，輸入: 'palindrome'
-Error: invalid syntax (<string>, line 4)
-****************************正確題數:0, 錯誤題數:10****************************
+通過測試: palindrome
+****************************正確題數:7, 錯誤題數:3****************************
 ---------------------------
 學號:s13350343_Q5.py
 <<題號: Q5測資：1>>
@@ -6382,37 +6151,27 @@ Error: invalid syntax (<string>, line 4)
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350343_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350342_Q1.py
 <<題號: Q1測資：1>>
@@ -6462,12 +6221,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350342_Q3.py
 <<題號: Q3測資：1>>
@@ -6494,36 +6251,34 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ---------------------------
 學號:s13350342_Q4.py
 <<題號: Q4測資：1>>
-執行錯誤，輸入: 'racecar'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: racecar
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：2>>
-執行錯誤，輸入: 'hello'
-Error: invalid syntax (<string>, line 2)
+通過測試: hello
 <<題號: Q4測資：3>>
-執行錯誤，輸入: 'A man a plan a canal Panama'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: A man a plan a canal Panama
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：4>>
-執行錯誤，輸入: 'No lemon, no melon'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: No lemon, no melon
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：5>>
-執行錯誤，輸入: ''
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: 
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：6>>
-執行錯誤，輸入: 'a'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: a
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：7>>
-執行錯誤，輸入: 'ab'
-Error: invalid syntax (<string>, line 2)
+通過測試: ab
 <<題號: Q4測資：8>>
-執行錯誤，輸入: 'madam'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: madam
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：9>>
-執行錯誤，輸入: 'was it a car or a cat I saw'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: was it a car or a cat I saw
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：10>>
-執行錯誤，輸入: 'palindrome'
-Error: invalid syntax (<string>, line 2)
-****************************正確題數:0, 錯誤題數:10****************************
+測試失敗，輸入: palindrome
+期望: Not Palindrome，實際: Palindrome
+****************************正確題數:2, 錯誤題數:8****************************
 ---------------------------
 學號:s13350342_Q5.py
 <<題號: Q5測資：1>>
@@ -6549,37 +6304,27 @@ Error: invalid syntax (<string>, line 2)
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350342_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350344_Q1.py
 <<題號: Q1測資：1>>
@@ -6631,10 +6376,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-通過測試: [2, 5, 6, 7, 9, 8, 1]
+測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
+期望: 5，實際: 6
 ****************************正確題數:7, 錯誤題數:3****************************
 ---------------------------
 學號:s13350344_Q3.py
@@ -6714,60 +6459,50 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ****************************正確題數:6, 錯誤題數:4****************************
 ---------------------------
 學號:s13350344_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s10210049_Q1.py
 <<題號: Q1測資：1>>
 測試失敗，輸入: Hello, world! Hello everyone.
-期望: 3，實際: 3 (unique words:{'everyone', 'hello', 'world'})
+期望: 3，實際: 3 (unique words:{'world', 'hello', 'everyone'})
 <<題號: Q1測資：2>>
 測試失敗，輸入: Python programming is fun! Programming is amazing.
-期望: 5，實際: 5 (unique words:{'amazing', 'fun', 'programming', 'is', 'python'})
+期望: 5，實際: 5 (unique words:{'fun', 'programming', 'python', 'is', 'amazing'})
 <<題號: Q1測資：3>>
 測試失敗，輸入: One one one
 期望: 1，實際: 1 (unique words:{'one'})
 <<題號: Q1測資：4>>
 測試失敗，輸入: This is a simple sentence.
-期望: 5，實際: 5 (unique words:{'sentence', 'this', 'is', 'simple', 'a'})
+期望: 5，實際: 5 (unique words:{'simple', 'a', 'this', 'sentence', 'is'})
 <<題號: Q1測資：5>>
 測試失敗，輸入: Special characters: !@#$%^&*() should be ignored.
-期望: 5，實際: 5 (unique words:{'be', 'should', 'ignored', 'special', 'characters'})
+期望: 5，實際: 5 (unique words:{'characters', 'be', 'should', 'ignored', 'special'})
 <<題號: Q1測資：6>>
 測試失敗，輸入: A B C a b c
-期望: 3，實際: 3 (unique words:{'c', 'b', 'a'})
+期望: 3，實際: 3 (unique words:{'b', 'c', 'a'})
 <<題號: Q1測資：7>>
 測試失敗，輸入: The quick brown fox jumps over the lazy dog.
-期望: 8，實際: 8 (unique words:{'dog', 'quick', 'fox', 'over', 'the', 'jumps', 'lazy', 'brown'})
+期望: 8，實際: 8 (unique words:{'lazy', 'brown', 'fox', 'the', 'jumps', 'quick', 'dog', 'over'})
 <<題號: Q1測資：8>>
 測試失敗，輸入: Repeated words, repeated words, repeated.
 期望: 2，實際: 2 (unique words:{'words', 'repeated'})
@@ -6776,7 +6511,7 @@ Error: unsupported operand type(s) for +: 'int' and 'list'
 期望: 0，實際: 0 (unique words:set())
 <<題號: Q1測資：10>>
 測試失敗，輸入: Case insensitivity test: TEST test
-期望: 3，實際: 3 (unique words:{'test', 'case', 'insensitivity'})
+期望: 3，實際: 3 (unique words:{'case', 'test', 'insensitivity'})
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s10210049_Q2.py<<題號: Q2測資：1>>
@@ -6805,10 +6540,10 @@ Error: unsupported operand type(s) for +: 'int' and 'list'
 期望: 7，實際: 7 (Longest sequence:[1, 2, 3, 4, 5, 6, 7])
 <<題號: Q2測資：9>>
 測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5 (Longest sequence:[12, 13, 14, 15, 16])
+期望: 5，實際: 5 (Longest sequence:[12, 13, 14, 15, 16])
 <<題號: Q2測資：10>>
 測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5 (Longest sequence:[5, 6, 7, 8, 9])
+期望: 5，實際: 5 (Longest sequence:[5, 6, 7, 8, 9])
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s10210049_Q3.py
@@ -6884,36 +6619,36 @@ Error: unsupported operand type(s) for +: 'int' and 'list'
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s10210049_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
+<<題號: Q6 測資：1>>
+測試失敗，輸入: ([2, 3, 1, 2, 4, 3], 7)
+期望: 2，實際: 2 (smallest subarray[4, 3])
+<<題號: Q6 測資：2>>
+測試失敗，輸入: ([1, 2, 3, 4, 5], 11)
+期望: 3，實際: 3 (smallest subarray[3, 4, 5])
+<<題號: Q6 測資：3>>
+測試失敗，輸入: ([1, 4, 4], 8)
+期望: 2，實際: 2 (smallest subarray[4, 4])
+<<題號: Q6 測資：4>>
+測試失敗，輸入: ([1, 2, 3, 4, 5], 15)
+期望: 5，實際: 5 (smallest subarray[1, 2, 3, 4, 5])
+<<題號: Q6 測資：5>>
+測試失敗，輸入: ([2, 3, 1, 2, 4, 3], 100)
+期望: 0，實際: 0 (smallest subarray[])
+<<題號: Q6 測資：6>>
+測試失敗，輸入: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+期望: 2，實際: 2 (smallest subarray[5, 10])
+<<題號: Q6 測資：7>>
+測試失敗，輸入: ([1, 1, 1, 1, 1, 1], 3)
+期望: 3，實際: 3 (smallest subarray[1, 1, 1])
+<<題號: Q6 測資：8>>
+測試失敗，輸入: ([4, 3, 1, 2, 6], 6)
+期望: 1，實際: 1 (smallest subarray[6])
+<<題號: Q6 測資：9>>
+測試失敗，輸入: ([1, 2, 3], 6)
+期望: 3，實際: 3 (smallest subarray[1, 2, 3])
+<<題號: Q6 測資：10>>
+測試失敗，輸入: ([2, 3, 5, 7, 10, 15], 20)
+期望: 2，實際: 2 (smallest subarray[10, 15])
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s13350316_Q1.py
@@ -6960,12 +6695,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350316_Q3.py
 <<題號: Q3測資：1>>
@@ -7040,37 +6773,27 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350316_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350324_Q1.py
 <<題號: Q1測資：1>>
@@ -7114,12 +6837,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350324_Q3.py
 <<題號: Q3測資：1>>
@@ -7146,36 +6867,29 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ---------------------------
 學號:s13350324_Q4.py
 <<題號: Q4測資：1>>
-執行錯誤，輸入: 'racecar'
-Error: invalid syntax (<string>, line 3)
+通過測試: racecar
 <<題號: Q4測資：2>>
-執行錯誤，輸入: 'hello'
-Error: invalid syntax (<string>, line 3)
+通過測試: hello
 <<題號: Q4測資：3>>
-執行錯誤，輸入: 'A man a plan a canal Panama'
-Error: invalid syntax (<string>, line 3)
+測試失敗，輸入: A man a plan a canal Panama
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：4>>
-執行錯誤，輸入: 'No lemon, no melon'
-Error: invalid syntax (<string>, line 3)
+測試失敗，輸入: No lemon, no melon
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：5>>
-執行錯誤，輸入: ''
-Error: invalid syntax (<string>, line 3)
+通過測試: 
 <<題號: Q4測資：6>>
-執行錯誤，輸入: 'a'
-Error: invalid syntax (<string>, line 3)
+通過測試: a
 <<題號: Q4測資：7>>
-執行錯誤，輸入: 'ab'
-Error: invalid syntax (<string>, line 3)
+通過測試: ab
 <<題號: Q4測資：8>>
-執行錯誤，輸入: 'madam'
-Error: invalid syntax (<string>, line 3)
+通過測試: madam
 <<題號: Q4測資：9>>
-執行錯誤，輸入: 'was it a car or a cat I saw'
-Error: invalid syntax (<string>, line 3)
+測試失敗，輸入: was it a car or a cat I saw
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：10>>
-執行錯誤，輸入: 'palindrome'
-Error: invalid syntax (<string>, line 3)
-****************************正確題數:0, 錯誤題數:10****************************
+通過測試: palindrome
+****************************正確題數:7, 錯誤題數:3****************************
 ---------------------------
 學號:s13350324_Q5.py
 <<題號: Q5測資：1>>
@@ -7205,37 +6919,27 @@ Error: invalid syntax (<string>, line 3)
 ****************************正確題數:6, 錯誤題數:4****************************
 ---------------------------
 學號:s13350324_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350319_Q1.py
 <<題號: Q1測資：1>>
@@ -7285,12 +6989,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350319_Q3.py
 <<題號: Q3測資：1>>
@@ -7365,37 +7067,27 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350319_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350304_Q1.py
 <<題號: Q1測資：1>>
@@ -7443,10 +7135,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
 測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 2
+期望: 5，實際: 2
 <<題號: Q2測資：10>>
 測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 3
+期望: 5，實際: 3
 ****************************正確題數:3, 錯誤題數:7****************************
 ---------------------------
 學號:s13350304_Q3.py
@@ -7530,37 +7222,28 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ****************************正確題數:2, 錯誤題數:8****************************
 ---------------------------
 學號:s13350304_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+測試失敗，輸入: ([2, 3, 1, 2, 4, 3], 100)
+期望: 0，實際: -1
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:9, 錯誤題數:1****************************
 ---------------------------
 學號:s13350347_Q1.py
 <<題號: Q1測資：1>>
@@ -7606,12 +7289,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350347_Q3.py
 <<題號: Q3測資：1>>
@@ -7693,37 +7374,27 @@ Error: 'int' object is not iterable
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350347_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350303_Q1.py
 <<題號: Q1測資：1>>
@@ -7765,12 +7436,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350303_Q3.py
 <<題號: Q3測資：1>>
@@ -7845,37 +7514,27 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350303_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350337_Q1.py
 <<題號: Q1測資：1>>
@@ -7924,12 +7583,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350337_Q3.py
 <<題號: Q3測資：1>>
@@ -7956,35 +7613,35 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ---------------------------
 學號:s13350337_Q4.py
 <<題號: Q4測資：1>>
-執行錯誤，輸入: 'racecar'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: racecar
+期望: Palindrome，實際: "Palindrome"
 <<題號: Q4測資：2>>
-執行錯誤，輸入: 'hello'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: hello
+期望: Not Palindrome，實際: "Not Palindrome"
 <<題號: Q4測資：3>>
-執行錯誤，輸入: 'A man a plan a canal Panama'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: A man a plan a canal Panama
+期望: Palindrome，實際: "Not Palindrome"
 <<題號: Q4測資：4>>
-執行錯誤，輸入: 'No lemon, no melon'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: No lemon, no melon
+期望: Palindrome，實際: "Not Palindrome"
 <<題號: Q4測資：5>>
-執行錯誤，輸入: ''
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: 
+期望: Palindrome，實際: "Palindrome"
 <<題號: Q4測資：6>>
-執行錯誤，輸入: 'a'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: a
+期望: Palindrome，實際: "Palindrome"
 <<題號: Q4測資：7>>
-執行錯誤，輸入: 'ab'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: ab
+期望: Not Palindrome，實際: "Not Palindrome"
 <<題號: Q4測資：8>>
-執行錯誤，輸入: 'madam'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: madam
+期望: Palindrome，實際: "Palindrome"
 <<題號: Q4測資：9>>
-執行錯誤，輸入: 'was it a car or a cat I saw'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: was it a car or a cat I saw
+期望: Palindrome，實際: "Not Palindrome"
 <<題號: Q4測資：10>>
-執行錯誤，輸入: 'palindrome'
-Error: invalid syntax (<string>, line 2)
+測試失敗，輸入: palindrome
+期望: Not Palindrome，實際: "Not Palindrome"
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s13350337_Q5.py
@@ -8011,37 +7668,27 @@ Error: invalid syntax (<string>, line 2)
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350337_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350311_Q1.py
 <<題號: Q1測資：1>>
@@ -8093,12 +7740,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350311_Q3.py
 <<題號: Q3測資：1>>
@@ -8170,60 +7815,50 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350311_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350313_Q1.py
 <<題號: Q1測資：1>>
 測試失敗，輸入: Hello, world! Hello everyone.
-期望: 3，實際: 3 (unique words: everyone, hello, world )
+期望: 3，實際: 3 (unique words: world, hello, everyone )
 <<題號: Q1測資：2>>
 測試失敗，輸入: Python programming is fun! Programming is amazing.
-期望: 5，實際: 5 (unique words: amazing, fun, programming, is, python )
+期望: 5，實際: 5 (unique words: fun, programming, python, is, amazing )
 <<題號: Q1測資：3>>
 測試失敗，輸入: One one one
 期望: 1，實際: 1 (unique words: one )
 <<題號: Q1測資：4>>
 測試失敗，輸入: This is a simple sentence.
-期望: 5，實際: 5 (unique words: sentence, this, is, simple, a )
+期望: 5，實際: 5 (unique words: simple, a, this, sentence, is )
 <<題號: Q1測資：5>>
 測試失敗，輸入: Special characters: !@#$%^&*() should be ignored.
-期望: 5，實際: 5 (unique words: be, should, ignored, special, characters )
+期望: 5，實際: 5 (unique words: characters, be, should, ignored, special )
 <<題號: Q1測資：6>>
 測試失敗，輸入: A B C a b c
-期望: 3，實際: 3 (unique words: c, b, a )
+期望: 3，實際: 3 (unique words: b, c, a )
 <<題號: Q1測資：7>>
 測試失敗，輸入: The quick brown fox jumps over the lazy dog.
-期望: 8，實際: 8 (unique words: dog, quick, fox, over, the, jumps, lazy, brown )
+期望: 8，實際: 8 (unique words: lazy, brown, fox, the, jumps, quick, dog, over )
 <<題號: Q1測資：8>>
 測試失敗，輸入: Repeated words, repeated words, repeated.
 期望: 2，實際: 2 (unique words: words, repeated )
@@ -8232,7 +7867,7 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 期望: 0，實際: 0 (unique words:  )
 <<題號: Q1測資：10>>
 測試失敗，輸入: Case insensitivity test: TEST test
-期望: 3，實際: 3 (unique words: test, case, insensitivity )
+期望: 3，實際: 3 (unique words: case, test, insensitivity )
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s13350313_Q2.py<<題號: Q2測資：1>>
@@ -8261,10 +7896,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 期望: 7，實際: 7 (The longest sequence is [1, 2, 3, 4, 5, 6, 7] )
 <<題號: Q2測資：9>>
 測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5 (The longest sequence is [12, 13, 14, 15, 16] )
+期望: 5，實際: 5 (The longest sequence is [12, 13, 14, 15, 16] )
 <<題號: Q2測資：10>>
 測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5 (The longest sequence is [5, 6, 7, 8, 9] )
+期望: 5，實際: 5 (The longest sequence is [5, 6, 7, 8, 9] )
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s13350313_Q3.py
@@ -8357,36 +7992,36 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s13350313_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
+<<題號: Q6 測資：1>>
+測試失敗，輸入: ([2, 3, 1, 2, 4, 3], 7)
+期望: 2，實際: 2 (smallest subarray: [4, 3])
+<<題號: Q6 測資：2>>
+測試失敗，輸入: ([1, 2, 3, 4, 5], 11)
+期望: 3，實際: 3 (smallest subarray: [3, 4, 5])
+<<題號: Q6 測資：3>>
+測試失敗，輸入: ([1, 4, 4], 8)
+期望: 2，實際: 2 (smallest subarray: [4, 4])
+<<題號: Q6 測資：4>>
+測試失敗，輸入: ([1, 2, 3, 4, 5], 15)
+期望: 5，實際: 5 (smallest subarray: [1, 2, 3, 4, 5])
+<<題號: Q6 測資：5>>
+測試失敗，輸入: ([2, 3, 1, 2, 4, 3], 100)
+期望: 0，實際: inf (smallest subarray: (0, []))
+<<題號: Q6 測資：6>>
+測試失敗，輸入: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+期望: 2，實際: 2 (smallest subarray: [5, 10])
+<<題號: Q6 測資：7>>
+測試失敗，輸入: ([1, 1, 1, 1, 1, 1], 3)
+期望: 3，實際: 3 (smallest subarray: [1, 1, 1])
+<<題號: Q6 測資：8>>
+測試失敗，輸入: ([4, 3, 1, 2, 6], 6)
+期望: 1，實際: 1 (smallest subarray: [6])
+<<題號: Q6 測資：9>>
+測試失敗，輸入: ([1, 2, 3], 6)
+期望: 3，實際: 3 (smallest subarray: [1, 2, 3])
+<<題號: Q6 測資：10>>
+測試失敗，輸入: ([2, 3, 5, 7, 10, 15], 20)
+期望: 2，實際: 2 (smallest subarray: [10, 15])
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s13350329_Q1.py
@@ -8429,12 +8064,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350329_Q3.py
 <<題號: Q3測資：1>>
@@ -8509,37 +8142,27 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350329_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350331_Q1.py
 <<題號: Q1測資：1>>
@@ -8581,12 +8204,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350331_Q3.py
 <<題號: Q3測資：1>>
@@ -8613,36 +8234,29 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ---------------------------
 學號:s13350331_Q4.py
 <<題號: Q4測資：1>>
-執行錯誤，輸入: 'racecar'
-Error: invalid syntax (<string>, line 4)
+通過測試: racecar
 <<題號: Q4測資：2>>
-執行錯誤，輸入: 'hello'
-Error: invalid syntax (<string>, line 4)
+通過測試: hello
 <<題號: Q4測資：3>>
-執行錯誤，輸入: 'A man a plan a canal Panama'
-Error: invalid syntax (<string>, line 4)
+測試失敗，輸入: A man a plan a canal Panama
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：4>>
-執行錯誤，輸入: 'No lemon, no melon'
-Error: invalid syntax (<string>, line 4)
+測試失敗，輸入: No lemon, no melon
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：5>>
-執行錯誤，輸入: ''
-Error: invalid syntax (<string>, line 4)
+通過測試: 
 <<題號: Q4測資：6>>
-執行錯誤，輸入: 'a'
-Error: invalid syntax (<string>, line 4)
+通過測試: a
 <<題號: Q4測資：7>>
-執行錯誤，輸入: 'ab'
-Error: invalid syntax (<string>, line 4)
+通過測試: ab
 <<題號: Q4測資：8>>
-執行錯誤，輸入: 'madam'
-Error: invalid syntax (<string>, line 4)
+通過測試: madam
 <<題號: Q4測資：9>>
-執行錯誤，輸入: 'was it a car or a cat I saw'
-Error: invalid syntax (<string>, line 4)
+測試失敗，輸入: was it a car or a cat I saw
+期望: Palindrome，實際: Not Palindrome
 <<題號: Q4測資：10>>
-執行錯誤，輸入: 'palindrome'
-Error: invalid syntax (<string>, line 4)
-****************************正確題數:0, 錯誤題數:10****************************
+通過測試: palindrome
+****************************正確題數:7, 錯誤題數:3****************************
 ---------------------------
 學號:s13350331_Q5.py
 <<題號: Q5測資：1>>
@@ -8668,37 +8282,27 @@ Error: invalid syntax (<string>, line 4)
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350331_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350321_Q1.py
 <<題號: Q1測資：1>>
@@ -8740,12 +8344,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350321_Q3.py
 <<題號: Q3測資：1>>
@@ -8820,37 +8422,27 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350321_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350341_Q1.py
 <<題號: Q1測資：1>>
@@ -8892,12 +8484,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 <<題號: Q2測資：8>>
 通過測試: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
-測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 5
+通過測試: [10, 12, 14, 15, 13, 16]
 <<題號: Q2測資：10>>
-測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 5
-****************************正確題數:8, 錯誤題數:2****************************
+通過測試: [2, 5, 6, 7, 9, 8, 1]
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350341_Q3.py
 <<題號: Q3測資：1>>
@@ -8979,37 +8569,27 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s13350341_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------
 學號:s13350314_Q1.py
 <<題號: Q1測資：1>>
@@ -9065,10 +8645,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 期望: 7，實際: 4
 <<題號: Q2測資：9>>
 測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: 4
+期望: 5，實際: 4
 <<題號: Q2測資：10>>
 測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: 4
+期望: 5，實際: 4
 ****************************正確題數:2, 錯誤題數:8****************************
 ---------------------------
 學號:s13350314_Q3.py
@@ -9161,31 +8741,31 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ****************************正確題數:2, 錯誤題數:8****************************
 ---------------------------
 學號:s13350314_Q6.py
-<<題號: Q6測資：1>>
+<<題號: Q6 測資：1>>
 通過測試: ([2, 3, 1, 2, 4, 3], 7)
-<<題號: Q6測資：2>>
+<<題號: Q6 測資：2>>
 測試失敗，輸入: ([1, 2, 3, 4, 5], 11)
 期望: 3，實際: 2
-<<題號: Q6測資：3>>
+<<題號: Q6 測資：3>>
 通過測試: ([1, 4, 4], 8)
-<<題號: Q6測資：4>>
+<<題號: Q6 測資：4>>
 測試失敗，輸入: ([1, 2, 3, 4, 5], 15)
 期望: 5，實際: 2
-<<題號: Q6測資：5>>
+<<題號: Q6 測資：5>>
 測試失敗，輸入: ([2, 3, 1, 2, 4, 3], 100)
 期望: 0，實際: 2
-<<題號: Q6測資：6>>
+<<題號: Q6 測資：6>>
 通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
-<<題號: Q6測資：7>>
+<<題號: Q6 測資：7>>
 測試失敗，輸入: ([1, 1, 1, 1, 1, 1], 3)
 期望: 3，實際: 2
-<<題號: Q6測資：8>>
+<<題號: Q6 測資：8>>
 測試失敗，輸入: ([4, 3, 1, 2, 6], 6)
 期望: 1，實際: 2
-<<題號: Q6測資：9>>
+<<題號: Q6 測資：9>>
 測試失敗，輸入: ([1, 2, 3], 6)
 期望: 3，實際: 2
-<<題號: Q6測資：10>>
+<<題號: Q6 測資：10>>
 通過測試: ([2, 3, 5, 7, 10, 15], 20)
 ****************************正確題數:4, 錯誤題數:6****************************
 ---------------------------
@@ -9248,10 +8828,10 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 期望: 7，實際: [1, 2, 3, 4, 5, 6, 7]
 <<題號: Q2測資：9>>
 測試失敗，輸入: [10, 12, 14, 15, 13, 16]
-期望: 6，實際: [10, 12, 13, 14, 15, 16]
+期望: 5，實際: [10, 12, 13, 14, 15, 16]
 <<題號: Q2測資：10>>
 測試失敗，輸入: [2, 5, 6, 7, 9, 8, 1]
-期望: 6，實際: [1, 2, 5, 6, 7, 8, 9]
+期望: 5，實際: [1, 2, 5, 6, 7, 8, 9]
 ****************************正確題數:0, 錯誤題數:10****************************
 ---------------------------
 學號:s13350301_Q3.py
@@ -9311,35 +8891,25 @@ Error: unsupported operand type(s) for +=: 'int' and 'list'
 ****************************正確題數:1, 錯誤題數:9****************************
 ---------------------------
 學號:s13350301_Q6.py
-<<題號: Q6測資：1>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 7)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：2>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 11)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：3>>
-執行錯誤，輸入: '([1, 4, 4], 8)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：4>>
-執行錯誤，輸入: '([1, 2, 3, 4, 5], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：5>>
-執行錯誤，輸入: '([2, 3, 1, 2, 4, 3], 100)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：6>>
-執行錯誤，輸入: '([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：7>>
-執行錯誤，輸入: '([1, 1, 1, 1, 1, 1], 3)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：8>>
-執行錯誤，輸入: '([4, 3, 1, 2, 6], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：9>>
-執行錯誤，輸入: '([1, 2, 3], 6)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-<<題號: Q6測資：10>>
-執行錯誤，輸入: '([2, 3, 5, 7, 10, 15], 20)'
-Error: unsupported operand type(s) for +=: 'int' and 'list'
-****************************正確題數:0, 錯誤題數:10****************************
+<<題號: Q6 測資：1>>
+通過測試: ([2, 3, 1, 2, 4, 3], 7)
+<<題號: Q6 測資：2>>
+通過測試: ([1, 2, 3, 4, 5], 11)
+<<題號: Q6 測資：3>>
+通過測試: ([1, 4, 4], 8)
+<<題號: Q6 測資：4>>
+通過測試: ([1, 2, 3, 4, 5], 15)
+<<題號: Q6 測資：5>>
+通過測試: ([2, 3, 1, 2, 4, 3], 100)
+<<題號: Q6 測資：6>>
+通過測試: ([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
+<<題號: Q6 測資：7>>
+通過測試: ([1, 1, 1, 1, 1, 1], 3)
+<<題號: Q6 測資：8>>
+通過測試: ([4, 3, 1, 2, 6], 6)
+<<題號: Q6 測資：9>>
+通過測試: ([1, 2, 3], 6)
+<<題號: Q6 測資：10>>
+通過測試: ([2, 3, 5, 7, 10, 15], 20)
+****************************正確題數:10, 錯誤題數:0****************************
 ---------------------------

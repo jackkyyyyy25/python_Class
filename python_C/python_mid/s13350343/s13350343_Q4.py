@@ -1,4 +1,4 @@
-test_input = "racecar"
+test_input = "12321"
 
 def palindrome_checker(test_input):
     if test_input == test_input[::-1]:

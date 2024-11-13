@@ -27,8 +27,8 @@ test_cases_q2 = [
     ([], 0),
     ([0], 1),
     ([1, 2, 3, 4, 5, 6, 7], 7),
-    ([10, 12, 14, 15, 13, 16], 6),
-    ([2, 5, 6, 7, 9, 8, 1], 6)
+    ([10, 12, 14, 15, 13, 16], 5),
+    ([2, 5, 6, 7, 9, 8, 1], 5)
 ]
 
 test_cases_q3 = [
@@ -230,7 +230,7 @@ def run_test_Q4(original_code, output_file):
 
     for input_string, expected_output in test_cases:
         # 使用 re.sub 替換 test_input 的賦值，將 input_string 插入程式碼中
-        modified_code = re.sub(r'test_input\s*=\s*.*', f'test_input={repr(input_string)}', original_code)
+        modified_code = re.sub(r'^test_input\s*=\s*.*', f'test_input={repr(input_string)}', original_code, flags=re.MULTILINE)
 
         f = io.StringIO()
         counter_testcase += 1
@@ -300,33 +300,31 @@ def run_test_Q6(original_code, output_file):
     counter_correct = 0
     output_file.write(f'學號:{student_code}\n')
 
-    for input_string, expected_output in test_cases:
-        # 使用 re.sub 替換 test_input 的賦值，將 input_string 插入程式碼中
-        modified_code = re.sub(r'test_input\s*=\s*.*', f'test_input={repr(input_string)}', original_code)
+    for (nums, target_value), expected_output in test_cases:
+        # 替換測試案例中的 test_input 和 target
+        modified_code = re.sub(r'test_input\s*=\s*.*', f'test_input={repr(nums)}', original_code)
+        modified_code = re.sub(r'target\s*=\s*.*', f'target={repr(target_value)}', modified_code)
+
 
         f = io.StringIO()
         counter_testcase += 1
-        output_file.write(f'<<題號: Q6')
-        output_file.write(f'測資：{counter_testcase}>>\n')
-        #output_file.write(f'{input_string}\n')
+        output_file.write(f'<<題號: Q6 測資：{counter_testcase}>>\n')
         
         # 使用 redirect_stdout 捕捉輸出
         with redirect_stdout(f):
             try:
                 exec(modified_code)
             except Exception as e:
-                output_file.write(f"執行錯誤，輸入: '{input_string}'\nError: {str(e)}\n")
+                output_file.write(f"執行錯誤，輸入: '{(nums, target_value)}'\nError: {str(e)}\n")
                 continue  # 繼續下一個測試案例
 
-        result = f.getvalue().strip()      
+        result = f.getvalue().strip()
         if result == str(expected_output):
-            output_file.write(f"通過測試: {input_string}\n")
+            output_file.write(f"通過測試: {(nums, target_value)}\n")
             counter_correct += 1
-            
-            #print(f"通過測試: {input_string}")
         else:
-            output_file.write(f"測試失敗，輸入: {input_string}\n期望: {expected_output}，實際: {result}\n")
-            #print(f"測試失敗，輸入: {input_string}，期望: {expected_output}，實際: {result}\n")  
+            output_file.write(f"測試失敗，輸入: {(nums, target_value)}\n期望: {expected_output}，實際: {result}\n")
+    
     output_file.write(f'****************************正確題數:{counter_correct}, 錯誤題數:{10-counter_correct}****************************\n')
     return counter_correct
     Q.append(counter_correct)
