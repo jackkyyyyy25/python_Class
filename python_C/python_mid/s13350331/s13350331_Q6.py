@@ -16,6 +16,6 @@ def smallest_subarray_with_target_sum(test_input, target):
     return min_length if min_length != float("inf") else 0
 
 
-test_input = [2, 3, 1, 2, 4, 3]
+test_input = [1, 2, 3, 3]
 target = 7
 print(smallest_subarray_with_target_sum(test_input, target)) 

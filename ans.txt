@@ -1,0 +1,79 @@
+
+test_cases_q1 = [
+    ("Hello, world! Hello everyone.", 3),
+    ("Python programming is fun! Programming is amazing.", 5),
+    ("One one one", 1),
+    ("This is a simple sentence.", 5),
+    ("Special characters: !@#$%^&*() should be ignored.", 5),
+    ("A B C a b c", 3),
+    ("The quick brown fox jumps over the lazy dog.", 8),
+    ("Repeated words, repeated words, repeated.", 2),
+    ("", 0),
+    ("Case insensitivity test: TEST test", 3)
+]
+
+test_cases_q2 = [
+    ([100, 4, 200, 1, 3, 2], 4),
+    ([1, 9, 3, 10, 2, 20], 3),
+    ([5, 5, 5, 5], 1),
+    ([10, 5, 12, 3, 55, 2, 4], 4),
+    ([1, 2, 0, 1], 3),
+    ([], 0),
+    ([0], 1),
+    ([1, 2, 3, 4, 5, 6, 7], 7),
+    ([10, 12, 14, 15, 13, 16], 5),
+    ([2, 5, 6, 7, 9, 8, 1], 5)
+]
+
+test_cases_q3 = [
+    (1234, 10),
+    (0, 0),
+    (9999, 36),
+    (1111, 4),
+    (54321, 15),
+    (1001, 2),
+    (1234567890, 45),
+    (888, 24),
+    (101010, 3),
+    (2468, 20)
+]
+
+test_cases_q4 = [
+    ("racecar", "Palindrome"),
+    ("hello", "Not Palindrome"),
+    ("A man a plan a canal Panama", "Palindrome"),
+    ("No lemon, no melon", "Palindrome"),
+    ("", "Palindrome"),
+    ("a", "Palindrome"),
+    ("ab", "Not Palindrome"),
+    ("madam", "Palindrome"),
+    ("was it a car or a cat I saw", "Palindrome"),
+    ("palindrome", "Not Palindrome")
+]
+
+test_cases_q5 = [
+    ([3, 0, 1], 2),
+    ([0, 1], 2),
+    ([9, 6, 4, 2, 3, 5, 7, 0, 1], 8),
+    ([0], 1),
+    ([0, 1, 2, 3, 4, 5, 7, 8, 9], 6),
+    ([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 0),
+    ([1], 0),
+    ([0, 2], 1),
+    ([4, 3, 2, 0, 1], 5),
+    ([6, 4, 5, 0, 1, 2, 7, 3], 8)
+]
+
+test_cases_q6 = [
+    (([2, 3, 1, 2, 4, 3], 7), 2),
+    (([1, 2, 3, 4, 5], 11), 3),
+    (([1, 4, 4], 8), 2),
+    (([1, 2, 3, 4, 5], 15), 5),
+    (([2, 3, 1, 2, 4, 3], 100), 0),
+    (([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15), 2),
+    (([1, 1, 1, 1, 1, 1], 3), 3),
+    (([4, 3, 1, 2, 6], 6), 1),
+    (([1, 2, 3], 6), 3),
+    (([2, 3, 5, 7, 10, 15], 20), 2)
+]
+

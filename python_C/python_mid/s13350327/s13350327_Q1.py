@@ -1,4 +1,4 @@
-test_input = "Hello,world! Hello everyone."
+test_input = "."
 words = test_input.lower().replace(",","").replace("!","").replace(".","")
 ans = len(set(test_input.lower().replace(",","").replace("!","").replace(".","").split()))
 print(words)

@@ -1,5 +1,5 @@
-test_input = [1, 2, 3, 4, 5]
-target = 8
+test_input = [5, 1, 3, 5, 10, 7, 4, 9, 2, 8]
+target = 15
 def min_subarray_len(nums, target):
     left = 0
     total = 0

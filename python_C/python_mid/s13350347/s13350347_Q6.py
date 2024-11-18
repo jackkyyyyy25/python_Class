@@ -1,5 +1,5 @@
-test_input = [2, 3, 1, 2, 4, 3]
-target = 7
+test_input = [4, 3, 1, 2, 6]
+target = 8
 n = len(test_input)
 left = 0
 currentsum = 0

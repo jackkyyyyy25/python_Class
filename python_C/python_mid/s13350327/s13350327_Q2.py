@@ -1,4 +1,4 @@
-test_input = [100, 4, 200, 1, 3, 2, 5]
+test_input = [1, 9, 3, 10, 2, 20]
 ans = set(test_input)
 longest_streak = 0
 longest_sequence = []

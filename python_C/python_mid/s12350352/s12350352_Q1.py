@@ -1,4 +1,4 @@
-test_input = "Hello, world! Hello everyone."
+test_input = "Python programming is fun! Programming is amazing."
 
 def count_unique_words(test_input):
     test_input = test_input.lower()

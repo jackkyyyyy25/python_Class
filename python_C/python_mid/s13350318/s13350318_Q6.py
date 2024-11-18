@@ -1,5 +1,5 @@
-test_input=[2,3,1,2,4,3]
-target=7
+test_input=[1, 4, 4]
+target=3
 n=len(test_input)
 prefix_sum=[0]*(n+1)
 a=[]
